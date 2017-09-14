@@ -18,10 +18,10 @@
     </tr>
     <tr>
         <td width="50px">faild</td>
-        <td>系统处理失败,查看Value里面文本</td>
+        <td>系统处理失败,查看Value里面提示信息</td>
     </tr>
     <tr>
         <td width="50px">success</td>
-        <td>系统处理正常,无需任何操作</td>
+        <td>系统处理错误,查看Value里面提示信息</td>
     </tr>
 </table>
