@@ -5,14 +5,13 @@
 * [版本更新](README.md)
 * [接入流程说明](jie-ru-liu-cheng.md)
 * [系统错误定义](cuo-wu-ding-yi.md)
-* [版本更新](ban-ben-geng-xin.md)
 
 ## 基础API
 
 * [省市区](ji-chu-api/sheng-shi-qu-xin-xi.md)
-* 购买渠道
-* 服务类型
-* 服务品牌
+* [购买渠道](ji-chu-api/gou-mai-qu-dao.md)
+* [服务类型](ji-chu-api/fu-wu-lei-xing.md)
+* [服务品牌](ji-chu-api/fu-wu-pin-pai.md)
 * [产品线](ji-chu-api/chan-pin-xian.md)
 * [产品品类](ji-chu-api/chan-pin-pin-lei.md)
 
