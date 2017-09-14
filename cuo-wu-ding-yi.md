@@ -9,8 +9,7 @@
 ###Status状态说明
 <table class="table table-bordered table-striped table-condensed">
     <tr>
-        <th width="50">
-错误代码</th>
+        <th width="50">错误代码</th>
 	<th>错误代码</th>
     </tr>
     <tr>
