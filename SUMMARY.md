@@ -9,5 +9,7 @@
 
 ## API分类
 
-* [订单API](methods.md)
+* [订单](methods.md)
+  * [订单查询](methods/ding-dan-lie-biao.md)
+  * [订单详情](methods/ding-dan-xiang-qing.md)
 
