@@ -6,5 +6,5 @@
     "Status": "10001",
     "Value": "请求超时，请重新尝试"
     }
-###错误状态说明
-    Status返回值有"success","faild","error"
+###Status状态说明
+    
