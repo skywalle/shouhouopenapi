@@ -1,4 +1,4 @@
-<table class="table table-bordered table-striped table-condensed">
+<table>
 
     <tr>
         <td>北京</td>
