@@ -10,10 +10,6 @@
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <th width="50px">错误代码</th>
-	<th>错误代码</th>
-    </tr>
-    <tr>
-        <td>深圳</td>
-	<td>暴雨</td>
-    </tr>
+	<th>描述</th>
+    </tr>    
 </table>
