@@ -3,7 +3,8 @@
 #接入前期准备
 1.品牌商主账号
 2.调用http://apigate.51shouhou.cn/token获取授权token
-3.附加token里面access_token到http请求头增加Key为Authorization值为Bearer加上空格加上toekn
+3.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access_token
+4.存储token钟的PkId为userId调用api
 #接入流程
-1.get调用地址http://apigate.51shouhou.cn/getinfo
-2.post调用地址http://apigate.51shouhou.cn/postinfo
+1.get调用地址http://apigate.51shouhou.cn/getinfo/{userId}
+2.post调用地址http://apigate.51shouhou.cn/postinfo/{userId}
