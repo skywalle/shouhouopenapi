@@ -7,9 +7,8 @@
 * [系统错误定义](cuo-wu-ding-yi.md)
 * [订单状态定义](ding-dan-zhuang-tai-ding-yi.md)
 
-## 开放分类
+## 订单API
 
-* [订单API](methods.md)
-  * [订单查询](methods/ding-dan-lie-biao.md)
-  * [订单详情](methods/ding-dan-xiang-qing.md)
+* [订单查询](methods/ding-dan-lie-biao.md)
+* [订单详情](methods/ding-dan-xiang-qing.md)
 
