@@ -5,5 +5,5 @@
 2.调用http://apigate.51shouhou.cn/token获取授权token
 3.附加token里面access_token到http请求头增加Key为Authorization值为Bearer加上空格加上toekn
 #接入流程
-1.get调用地址为http://apigate.51shouhou.cn/getinfo
-2.post调用地址为http://apigate.51shouhou.cn/postinfo
+1.get调用地址http://apigate.51shouhou.cn/getinfo
+2.post调用地址http://apigate.51shouhou.cn/postinfo
