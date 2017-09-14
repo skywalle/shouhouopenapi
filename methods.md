@@ -1,7 +1,7 @@
 <table class="table table-bordered table-striped table-condensed">
 <tr>
 <th>API列表</th>
-<th></th>
+<th>描述</th>
 </tr>
     <tr>
         <td>北京</td>
