@@ -9,8 +9,8 @@
 ###Status状态说明
 <table class="table table-bordered table-striped table-condensed">
     <tr>
-        <td width="50">北京</td>
-	<td>雾霾</td>
+        <th width="50">北京</td>
+	<th>雾霾</td>
     </tr>
     <tr>
         <td>深圳</td>
