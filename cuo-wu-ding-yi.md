@@ -10,6 +10,6 @@
 <table class="table table-bordered table-striped table-condensed">
     <tr>
         <th width="50px">错误代码</th>
-	<th>描述</th>
+	<th>描述信息</th>
     </tr>    
 </table>
