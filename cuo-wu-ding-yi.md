@@ -13,8 +13,8 @@
 	<th>错误描述</th>
     </tr>
     <tr>
-    <td width="50px">错误代码</td>
-    <td>错误描述</td>
+        <td width="50px">错误代码</td>
+        <td>错误描述</td>
     </tr>
 
 </table>
