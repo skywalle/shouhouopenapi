@@ -1,6 +1,6 @@
 # Summary
 
-## 基本介绍
+## 开放说明
 
 * [版本更新](README.md)
 * [接入流程说明](jie-ru-liu-cheng.md)
