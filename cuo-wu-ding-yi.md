@@ -11,5 +11,9 @@
     <tr>
         <th width="50px">错误代码</th>
 	<th>错误描述</th>
-    </tr>    
+    </tr>
+    <tr>
+<th width="50px">错误代码</th>
+<th>错误描述</th>
+</tr>    
 </table>
