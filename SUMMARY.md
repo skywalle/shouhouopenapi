@@ -5,6 +5,7 @@
 * [版本更新](README.md)
 * [接入流程说明](jie-ru-liu-cheng.md)
 * [系统错误定义](cuo-wu-ding-yi.md)
+* [版本更新](ban-ben-geng-xin.md)
 
 ## 基础API
 
