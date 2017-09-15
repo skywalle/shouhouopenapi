@@ -11,9 +11,10 @@
 # 接入流程
 
 1.品牌商主账号  
-2.调用http://apigate.51shouhou.cn/token获取授权token 
-3.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access_token  
-4.存储token钟的PkId为userId调用api
+2.组装表单数据grant_type=password&username={userName}&password={password}
+3.调用http://apigate.51shouhou.cn/token获取授权token 
+4.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access_token  
+5.存储token钟的PkId为userId调用api
 
 # 
 
