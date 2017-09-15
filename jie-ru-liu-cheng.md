@@ -12,7 +12,7 @@
 
 1.品牌商主账号  
 2.调用http://apigate.51shouhou.cn/token获取授权token 
-3.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access\_token  
+3.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access_token  
 4.存储token钟的PkId为userId调用api
 
 # 
