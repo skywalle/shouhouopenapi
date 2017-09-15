@@ -16,7 +16,5 @@
 4.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access_token  
 5.存储token钟的PkId为userId调用api
 
-# 
-
 
 
