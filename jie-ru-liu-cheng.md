@@ -36,11 +36,11 @@ HTTP Request Header：
 Authorization:Bearer lCv***SXY
 ```
 
-# 接入地址
+# 常用接入地址
 
-1.token调用地址：[http://apigate.51shouhou.cn/token](http://apigate.51shouhou.cn/token)  
-2.get调用地址：[http://apigate.51shouhou.cn/getinfo/{userId}](http://apigate.51shouhou.cn/getinfo/{userId})  
-3.post调用地：[http://apigate.51shouhou.cn/postinfo/{userId}](http://apigate.51shouhou.cn/postinfo/{userId})
+1、登录获取token地址（method：http get）：[http://apigate.51shouhou.cn/token](http://apigate.51shouhou.cn/token)  
+2、获取用户基本信息地址（method：http get）：[http://apigate.51shouhou.cn/getinfo/{userId}](http://apigate.51shouhou.cn/getinfo/{userId})  
+3、更新用户信息地址（method：http post）：[http://apigate.51shouhou.cn/postinfo/{userId}](http://apigate.51shouhou.cn/postinfo/{userId})
 
 # 
 
