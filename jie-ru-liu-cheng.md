@@ -16,11 +16,31 @@
 
 参数说明：
 
-1.品牌商主账号  
-2.组装表单数据grant\_type=password&username={username}&password={password}替换{username}为主账号,{password}为密码  
-3.调用[http://apigate.51shouhou.cn/token获取授权token](http://apigate.51shouhou.cn/token获取授权token)   
-4.http请求头增加Key为Authorization值为Bearer加上空格附加token里面access\_token  
-5.存储token钟的PkId为userId调用api
+1、品牌商主账号，登录获取Token：http://apigate.51shouhou.cn/token?grant\_type=password&username={username}&password={password}；username：主账号，password：密码；
+
+Token Example With Json：
+
+```
+{
+    "access_token": "lCv***SXY",
+    "token_type": "bearer",
+    "expires_in": 1209599,
+    "PkId": "ad5***46f",    /*用户Id*/
+    "UserName": "安徽**空调",
+    "RoleName": "网**组",
+    "ContextUserName": "170***8888",
+    ".issued": "Wed, 20 Sep 2017 07:10:48 GMT",
+    ".expires": "Wed, 04 Oct 2017 07:10:48 GMT"
+}
+```
+
+2、请求操作数据认证Http Header增加Key-Value：Authorization:Bearer {access\_token}
+
+HTTP Request Header：
+
+```
+Authorization:Bearer lCv***SXY
+```
 
 
 
