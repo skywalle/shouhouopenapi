@@ -2,12 +2,6 @@
 
 针对超级售后的品牌商系统用户!目前开放API实现订单推送的功能,后期会开放更多接口出来
 
-# 接入地址
-
-1.token调用地址[http://apigate.51shouhou.cn/token](http://apigate.51shouhou.cn/token)  
-2.get调用地址[http://apigate.51shouhou.cn/getinfo/{userId}](http://apigate.51shouhou.cn/getinfo/{userId})  
-3.post调用地[http://apigate.51shouhou.cn/postinfo/{userId}](http://apigate.51shouhou.cn/postinfo/{userId})
-
 # 接入流程
 
 流程图：
@@ -16,7 +10,7 @@
 
 参数说明：
 
-1、品牌商主账号，登录获取Token：http://apigate.51shouhou.cn/token?grant\_type=password&username={username}&password={password}；username：主账号，password：密码；
+1、品牌商主账号，登录获取Token：[http://apigate.51shouhou.cn/token?grant\_type=password&username={username}&password={password}；username：主账号，password：密码；](http://apigate.51shouhou.cn/token?grant_type=password&username={username}&password={password}；username：主账号，password：密码；)
 
 Token Example With Json：
 
@@ -41,6 +35,14 @@ HTTP Request Header：
 ```
 Authorization:Bearer lCv***SXY
 ```
+
+# 接入地址
+
+1.token调用地址：[http://apigate.51shouhou.cn/token](http://apigate.51shouhou.cn/token)  
+2.get调用地址：[http://apigate.51shouhou.cn/getinfo/{userId}](http://apigate.51shouhou.cn/getinfo/{userId})  
+3.post调用地：[http://apigate.51shouhou.cn/postinfo/{userId}](http://apigate.51shouhou.cn/postinfo/{userId})
+
+# 
 
 
 
