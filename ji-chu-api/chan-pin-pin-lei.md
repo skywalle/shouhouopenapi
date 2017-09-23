@@ -26,67 +26,171 @@ GET
 | --- | --- | --- | --- |
 | productCatePkId | Guid | yes | 产险品PkId |
 
-
-
 # 注意事项
 
 暂无
 
 # 返回结果
 
-\[
+`[`
 
- {
+` {`
 
- "PkId": "48bdf2f9-4084-f206-d68c-cb93f1d61846",
+` "TradePkId": null,`
 
- "Name": "测试添加产品线0000",
+` "PkId": "caeb4bdd-e7a3-34ac-e878-f2d0a7be03c5",`
 
- "SystemNumber": "20170807",
+` "Name": "双开门冰箱",`
 
- "NameIcon": null,
+` "Sort": null,`
 
- "Sort": null,
+` "CreateTime": "2017-05-30 21:39:29",`
 
- "ProductBrand": null,
+` "ProductType": {`
 
- "ProductType": null,
+` "PkId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
 
- "CreateTime": "2017-08-07 09:22:16",
+` "NameIcon": null,`
 
- "UpdateTime": null,
+` "Name": "大家电",`
 
- "FaultList": null,
+` "SystemNumber": null,`
 
- "IsSelected": null,
+` "Sort": 0,`
 
- "TradePkId": null,
+` "CreateTime": "2017-05-16 13:32:24",`
 
- "ParentId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",
+` "UpdateTime": null,`
 
- "ParentSubPkId": null,
+` "CateList": null,`
 
- "ProductInfo": null,
+` "IsSystemHas": true,`
 
- "IsSystemHas": true,
+` "IsSelected": null,`
 
- "OwnerProductTypePkId": null,
+` "OwnerProductTypePkId": null,`
 
- "FkBrandsSellerPkId": null,
+` "FkBrandsSellerPkId": null,`
 
- "BrandsSellerName": null,
+` "BrandsSellerName": null,`
 
- "FkBranchSellerPkId": null,
+` "FkBranchSellerPkId": null,`
 
- "BranchSellerName": null,
+` "BranchSellerName": null,`
 
- "SystemPublickPkId": null,
+` "SystemPublickPkId": null`
 
- "ServiceMethod": null,
+` },`
 
- "CategoryTitlePic": "http:\/\/oss.surdata.com\/cs\/common\/636376945365453991.jpg"
+` "ProductBrand": null,`
 
- },
+` "ProductCategory": {`
 
-\]
+` "PkId": "acea2081-1781-7c21-a14c-68b929110814",`
+
+` "Name": "冰箱",`
+
+` "SystemNumber": null,`
+
+` "NameIcon": null,`
+
+` "Sort": 0,`
+
+` "ProductBrand": null,`
+
+` "ProductType": null,`
+
+` "CreateTime": null,`
+
+` "UpdateTime": null,`
+
+` "FaultList": null,`
+
+` "IsSelected": null,`
+
+` "TradePkId": null,`
+
+` "ParentId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
+
+` "ParentSubPkId": null,`
+
+` "ProductInfo": null,`
+
+` "IsSystemHas": true,`
+
+` "OwnerProductTypePkId": null,`
+
+` "FkBrandsSellerPkId": null,`
+
+` "BrandsSellerName": null,`
+
+` "FkBranchSellerPkId": null,`
+
+` "BranchSellerName": null,`
+
+` "SystemPublickPkId": null,`
+
+` "ServiceMethod": null,`
+
+` "CategoryTitlePic": "http://oss.surdata.com/cs/common/636350165986293713.jpg"`
+
+` },`
+
+` "ProductInfo": null,`
+
+` "SerialNumber": null,`
+
+` "ProductModel": null,`
+
+` "ProductModelOne": null,`
+
+` "FaultProblem": null,`
+
+` "FaultReason": null,`
+
+` "BuyTime": null,`
+
+` "FormatTime": null,`
+
+` "BuyChannel": null,`
+
+` "ServiceCount": null,`
+
+` "FwMethod": null,`
+
+` "ServiceMethod": null,`
+
+` "FwContent": null,`
+
+` "FkBrandsSellerPkId": null,`
+
+` "BrandsSellerName": null,`
+
+` "FkBranchSellerPkId": null,`
+
+` "BranchSellerName": null,`
+
+` "ErrorInfo": null,`
+
+` "IsSelected": null,`
+
+` "IsSystemHas": true,`
+
+` "SystemNumber": null,`
+
+` "ParentId": "acea2081-1781-7c21-a14c-68b929110814",`
+
+` "MaintenanceCycle": null,`
+
+` "OwnerProductInfoPkId": null,`
+
+` "CategoryTitlePic": null,`
+
+` "SystemSpecificationPkId": null`
+
+` },`
+
+`...`
+
+`]`
 
