@@ -6,7 +6,7 @@
 
 # 请求地址
 
-v1\/manager\/product\/info\/list\/{productCatePkId}
+manager\/product\/info\/list\/{productCatePkId}
 
 # 支持格式
 
@@ -34,161 +34,161 @@ GET
 
 `[`
 
-` {`
+`{`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "PkId": "caeb4bdd-e7a3-34ac-e878-f2d0a7be03c5",`
+`"PkId": "caeb4bdd-e7a3-34ac-e878-f2d0a7be03c5",`
 
-` "Name": "双开门冰箱",`
+`"Name": "双开门冰箱",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "CreateTime": "2017-05-30 21:39:29",`
+`"CreateTime": "2017-05-30 21:39:29",`
 
-` "ProductType": {`
+`"ProductType": {`
 
-` "PkId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
+`"PkId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
 
-` "NameIcon": null,`
+`"NameIcon": null,`
 
-` "Name": "大家电",`
+`"Name": "大家电",`
 
-` "SystemNumber": null,`
+`"SystemNumber": null,`
 
-` "Sort": 0,`
+`"Sort": 0,`
 
-` "CreateTime": "2017-05-16 13:32:24",`
+`"CreateTime": "2017-05-16 13:32:24",`
 
-` "UpdateTime": null,`
+`"UpdateTime": null,`
 
-` "CateList": null,`
+`"CateList": null,`
 
-` "IsSystemHas": true,`
+`"IsSystemHas": true,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "OwnerProductTypePkId": null,`
+`"OwnerProductTypePkId": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "SystemPublickPkId": null`
+`"SystemPublickPkId": null`
 
-` },`
+`},`
 
-` "ProductBrand": null,`
+`"ProductBrand": null,`
 
-` "ProductCategory": {`
+`"ProductCategory": {`
 
-` "PkId": "acea2081-1781-7c21-a14c-68b929110814",`
+`"PkId": "acea2081-1781-7c21-a14c-68b929110814",`
 
-` "Name": "冰箱",`
+`"Name": "冰箱",`
 
-` "SystemNumber": null,`
+`"SystemNumber": null,`
 
-` "NameIcon": null,`
+`"NameIcon": null,`
 
-` "Sort": 0,`
+`"Sort": 0,`
 
-` "ProductBrand": null,`
+`"ProductBrand": null,`
 
-` "ProductType": null,`
+`"ProductType": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "UpdateTime": null,`
+`"UpdateTime": null,`
 
-` "FaultList": null,`
+`"FaultList": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "ParentId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
+`"ParentId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
 
-` "ParentSubPkId": null,`
+`"ParentSubPkId": null,`
 
-` "ProductInfo": null,`
+`"ProductInfo": null,`
 
-` "IsSystemHas": true,`
+`"IsSystemHas": true,`
 
-` "OwnerProductTypePkId": null,`
+`"OwnerProductTypePkId": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "SystemPublickPkId": null,`
+`"SystemPublickPkId": null,`
 
-` "ServiceMethod": null,`
+`"ServiceMethod": null,`
 
-` "CategoryTitlePic": "http://oss.surdata.com/cs/common/636350165986293713.jpg"`
+`"CategoryTitlePic": "http://oss.surdata.com/cs/common/636350165986293713.jpg"`
 
-` },`
+`},`
 
-` "ProductInfo": null,`
+`"ProductInfo": null,`
 
-` "SerialNumber": null,`
+`"SerialNumber": null,`
 
-` "ProductModel": null,`
+`"ProductModel": null,`
 
-` "ProductModelOne": null,`
+`"ProductModelOne": null,`
 
-` "FaultProblem": null,`
+`"FaultProblem": null,`
 
-` "FaultReason": null,`
+`"FaultReason": null,`
 
-` "BuyTime": null,`
+`"BuyTime": null,`
 
-` "FormatTime": null,`
+`"FormatTime": null,`
 
-` "BuyChannel": null,`
+`"BuyChannel": null,`
 
-` "ServiceCount": null,`
+`"ServiceCount": null,`
 
-` "FwMethod": null,`
+`"FwMethod": null,`
 
-` "ServiceMethod": null,`
+`"ServiceMethod": null,`
 
-` "FwContent": null,`
+`"FwContent": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "ErrorInfo": null,`
+`"ErrorInfo": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "IsSystemHas": true,`
+`"IsSystemHas": true,`
 
-` "SystemNumber": null,`
+`"SystemNumber": null,`
 
-` "ParentId": "acea2081-1781-7c21-a14c-68b929110814",`
+`"ParentId": "acea2081-1781-7c21-a14c-68b929110814",`
 
-` "MaintenanceCycle": null,`
+`"MaintenanceCycle": null,`
 
-` "OwnerProductInfoPkId": null,`
+`"OwnerProductInfoPkId": null,`
 
-` "CategoryTitlePic": null,`
+`"CategoryTitlePic": null,`
 
-` "SystemSpecificationPkId": null`
+`"SystemSpecificationPkId": null`
 
-` },`
+`},`
 
 `...`
 

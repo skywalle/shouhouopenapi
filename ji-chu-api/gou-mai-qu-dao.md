@@ -6,7 +6,7 @@
 
 # 请求地址
 
-v1\/site\/trade\/buy\/channel\/list
+site\/trade\/buy\/channel\/list
 
 # 支持格式
 
@@ -32,29 +32,29 @@ GET
 
 `[`
 
-` {`
+`{`
 
-` "PkId": "12ad5c79-0444-f889-66c2-faf90e73d8c9",`
+`"PkId": "12ad5c79-0444-f889-66c2-faf90e73d8c9",`
 
-` "Name": "淘宝",`
+`"Name": "淘宝",`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "IsBranch": null`
+`"IsBranch": null`
 
-` },`
+`},`
 
-` {`
+`{`
 
-` "PkId": "35c44bc0-c7af-f5ae-6e73-b195f933810e",`
+`"PkId": "35c44bc0-c7af-f5ae-6e73-b195f933810e",`
 
-` "Name": "天猫",`
+`"Name": "天猫",`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "IsBranch": null`
+`"IsBranch": null`
 
-` },`
+`},`
 
 `...`
 

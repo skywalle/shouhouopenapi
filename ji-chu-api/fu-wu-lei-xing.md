@@ -6,7 +6,7 @@
 
 # 请求地址
 
-v1\/brands\/service\/type\/list
+brands\/service\/type\/list
 
 # 支持格式
 
@@ -32,125 +32,125 @@ GET
 
 `[`
 
-` {`
+`{`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "PkId": "617a513c-f789-c016-a19f-b500f2949831",`
+`"PkId": "617a513c-f789-c016-a19f-b500f2949831",`
 
-` "Name": "安装",`
+`"Name": "安装",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "WebIcon": {`
+`"WebIcon": {`
 
-` "Name": "icon-anzhuang",`
+`"Name": "icon-anzhuang",`
 
-` "Text": null`
+`"Text": null`
 
-` },`
+`},`
 
-` "TradeIcon": null,`
+`"TradeIcon": null,`
 
-` "AppMark": null,`
+`"AppMark": null,`
 
-` "DescText": "专业技能，标准服务",`
+`"DescText": "专业技能，标准服务",`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "Background": null,`
+`"Background": null,`
 
-` "IsPortalDisplay": null,`
+`"IsPortalDisplay": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "ProductTypes": null,`
+`"ProductTypes": null,`
 
-` "ProductCategorys": null`
+`"ProductCategorys": null`
 
-` },`
+`},`
 
-` {`
+`{`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "PkId": "e25faf08-d60c-0268-a090-24497ff6e01e",`
+`"PkId": "e25faf08-d60c-0268-a090-24497ff6e01e",`
 
-` "Name": "保养",`
+`"Name": "保养",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "WebIcon": {`
+`"WebIcon": {`
 
-` "Name": "icon-baoyang",`
+`"Name": "icon-baoyang",`
 
-` "Text": null`
+`"Text": null`
 
-` },`
+`},`
 
-` "TradeIcon": null,`
+`"TradeIcon": null,`
 
-` "AppMark": null,`
+`"AppMark": null,`
 
-` "DescText": "内外清洗，一步到位",`
+`"DescText": "内外清洗，一步到位",`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "Background": null,`
+`"Background": null,`
 
-` "IsPortalDisplay": null,`
+`"IsPortalDisplay": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "ProductTypes": null,`
+`"ProductTypes": null,`
 
-` "ProductCategorys": null`
+`"ProductCategorys": null`
 
-` },`
+`},`
 
-` {`
+`{`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "PkId": "7bcfb938-f604-db80-635e-a2bb1fdab850",`
+`"PkId": "7bcfb938-f604-db80-635e-a2bb1fdab850",`
 
-` "Name": "维修",`
+`"Name": "维修",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "WebIcon": {`
+`"WebIcon": {`
 
-` "Name": "icon-weixiu",`
+`"Name": "icon-weixiu",`
 
-` "Text": null`
+`"Text": null`
 
-` },`
+`},`
 
-` "TradeIcon": null,`
+`"TradeIcon": null,`
 
-` "AppMark": null,`
+`"AppMark": null,`
 
-` "DescText": "价格透明，质量保证",`
+`"DescText": "价格透明，质量保证",`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "Background": null,`
+`"Background": null,`
 
-` "IsPortalDisplay": null,`
+`"IsPortalDisplay": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "ProductTypes": null,`
+`"ProductTypes": null,`
 
-` "ProductCategorys": null`
+`"ProductCategorys": null`
 
-` }`
+`}`
 
 `]`
 

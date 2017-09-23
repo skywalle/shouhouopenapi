@@ -6,7 +6,7 @@
 
 # 请求地址
 
-v1\/manager\/product\/category\/list
+manager\/product\/category\/list
 
 # 支持格式
 
@@ -32,57 +32,57 @@ GET
 
 `[`
 
-` {`
+`{`
 
-` "PkId": "48bdf2f9-4084-f206-d68c-cb93f1d61846",`
+`"PkId": "48bdf2f9-4084-f206-d68c-cb93f1d61846",`
 
-` "Name": "冰箱",`
+`"Name": "冰箱",`
 
-` "SystemNumber": "20170807",`
+`"SystemNumber": "20170807",`
 
-` "NameIcon": null,`
+`"NameIcon": null,`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "ProductBrand": null,`
+`"ProductBrand": null,`
 
-` "ProductType": null,`
+`"ProductType": null,`
 
-` "CreateTime": "2017-08-07 09:22:16",`
+`"CreateTime": "2017-08-07 09:22:16",`
 
-` "UpdateTime": null,`
+`"UpdateTime": null,`
 
-` "FaultList": null,`
+`"FaultList": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "ParentId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
+`"ParentId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
 
-` "ParentSubPkId": null,`
+`"ParentSubPkId": null,`
 
-` "ProductInfo": null,`
+`"ProductInfo": null,`
 
-` "IsSystemHas": true,`
+`"IsSystemHas": true,`
 
-` "OwnerProductTypePkId": null,`
+`"OwnerProductTypePkId": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "SystemPublickPkId": null,`
+`"SystemPublickPkId": null,`
 
-` "ServiceMethod": null,`
+`"ServiceMethod": null,`
 
-` "CategoryTitlePic": "http://oss.surdata.com/cs/common/636376945365453991.jpg"`
+`"CategoryTitlePic": "http://oss.surdata.com/cs/common/636376945365453991.jpg"`
 
-` },`
+`},`
 
 `...`
 
