@@ -2,11 +2,11 @@
 
 # 说明
 
-推送订单到kafka
+创建订单
 
 # 请求地址
 
-skyeye\/trade\/sync\/{tradePkId}
+branch\/trade\/create
 
 # 支持格式
 
@@ -14,7 +14,7 @@ skyeye\/trade\/sync\/{tradePkId}
 
 # HTTP请求方式
 
-GET
+POST
 
 # 是否需要授权
 
@@ -24,9 +24,24 @@ GET
 
 | 名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
-| tradePkId | Guid | no | 订单PkId |
-
-
+| **Contact\[Name\]** | string |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
+|  |  |  |  |
 
 # 注意事项
 
