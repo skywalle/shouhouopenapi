@@ -66,5 +66,18 @@ GET
 
 ## 返回结果说明 {#返回结果说明}
 
+| 返回字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| PkId | Guid | 产品线PkId |
+| Name | string | 产品线名称 |
+| SystemNumber | string | 编码 |
+| NameIcon | string | 名称Icon |
+| Sort | int | 排序 |
+| IsSystemHas | bool | 是否为系统默认产品线 |
+| ProductBrand | Object | 产品品牌 |
+| ProductType | Object | 产品分类 |
+| CreateTime | DateTime | 创建时间 |
+| UpdateTime | DateTime | 更新时间 |
+
 
 
