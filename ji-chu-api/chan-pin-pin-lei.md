@@ -154,13 +154,28 @@ ProductType（产品分类）：
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| PkId | Guid | 主键 |
+| NameIcon | string | 产品分类图标 |
+| Name | string | 产品分类名称 |
+| SysetemNumber | string | 系统编号 |
+| Sort | int | 排序 |
+| CreateTime | DateTime | 创建日期 |
+| UpdateTime | DateTime | 更新日期 |
+| CateList | Object | 拥有的品类，暂未使用 |
+| IsSystemHas | bool | 是否系统默认 |
+| IsSelected | bool | 是否选中 |
+| OwnerProductTypePkId | Guid | 自己的产品类型编号 |
+| FkBrandsSellerPkId | Guid | 品牌商用户PkId |
+| BrandsSellerName | string | 品牌商用户名称 |
+| FkBranchSellerPkId | Guid | 网点商用户PkId |
+| BranchSellerName | string | 网点商用户名称 |
+| SystemPublickPkId | Guid | 生成的系统公用PkId |
 
 ProductCategory（产品线）：
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| PkId | Guid | 主键 |
 
 
 
