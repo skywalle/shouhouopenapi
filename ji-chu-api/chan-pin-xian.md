@@ -81,6 +81,12 @@ GET
 | IsSelected | bool | 是否选中，暂未使用 |
 | TradePkId | Guid | 订单主键ID，暂未使用 |
 | ParentSubPkId | Guid | 父级子键，暂未使用 |
+| ProductInfo | Object | 产品品类 |
+| OwnerProductTypePkId | Guid | 所属产品分类ID |
+| FkBrandsSellerPkId | Guid | 品牌商ID |
+| FkBrandsSellerName | string | 品牌商名称 |
+| SystemPublicPkId | Guid | 生成的系统公用PkId |
+| ServiceMethod | Object | 服务措施列表 |
 
 
 
