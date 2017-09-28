@@ -75,7 +75,7 @@ GET
 | Sort | int | 排序 |
 | CreateTime | DateTime | 创建时间 |
 | UpdateTime | DateTime | 更新时间 |
-| ParentId | Guid | 上级分类Id |
+| ParentId | Guid | 上级分类ID |
 | CategoryTitlePic | string | 产品线图片 |
 
 
