@@ -10,7 +10,9 @@ brands/service/type/list
 
 # 支持格式
 
-{url}?k1=v1&k2=v2&k3=v3&...
+{url}
+
+无需传递参数
 
 # HTTP请求方式
 
