@@ -124,6 +124,31 @@ GET
 | Name | string | 产品品类名称 |
 | Sort | int | 排序 |
 | CreateTime | DateTime | 创建日期 |
+| PorductType | Object | 所属产品分类 |
+| ProductCategory | Object | 所属产品线 |
+| ProductBrand | Object | 产品品牌，暂未使用 |
+| ProductInfo | Object | 产品品类，暂未使用 |
+| SerialNumber | string | 序列号 |
+| ProductModel | Object | 产品型号，暂未使用 |
+| ProductModelOne | Object | 产品型号单个，暂未使用 |
+| FaultProblem | string | 故障现象，暂未使用 |
+| FaultReason | string | 故障原因，暂未使用 |
+| BuyTime | DateTime | 购买日期，暂未使用 |
+| ServiceCount | int | 服务次数，暂未使用 |
+| FwMethod | Object | 服务措施，暂未使用 |
+| ServiceMethod | Object | 服务措施列表，暂未使用 |
+| FwContent | string | 服务描述，暂未使用 |
+| FkBrandsSellerPkId | Guid | 品牌商用户PkId，暂未使用 |
+| BrandsSellerName | string | 品牌商用户名称，暂未使用 |
+| ErrorInfo | string | 错误信息，暂未使用 |
+| IsSelected | bool | 是否选中，暂未使用 |
+| IsSystemHas | bool | 是否系统默认 |
+| SystemNumber | string | 系统编号 |
+| ParentId | Guid | 父级ID |
+| MaintenanceCycle | decimal | 保养周期，暂未使用 |
+| OwnerProductInfoPkId | Guid | 自己的产品品类编号，暂未使用 |
+| CategoryTitlePic | string | 产品线图片，暂未使用 |
+| SystemSpecificationPkId | Guid | 系统原始编码，暂未使用 |
 
 
 
