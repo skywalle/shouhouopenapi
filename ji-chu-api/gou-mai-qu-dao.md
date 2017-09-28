@@ -48,12 +48,12 @@ GET
 ]
 ```
 
-|  |  |  |
+| 返回字段 | 字段类型 | 字段说明 |
 | --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| PkId | Guid | 主键 |
+| Name | string | 购买渠道名称 |
+| TradeId | Guid | 订单PkId |
+| IsBranch | bool | 是否是网点 |
 
 
 
