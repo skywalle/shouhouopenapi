@@ -155,27 +155,50 @@ ProductType（产品分类）：
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
 | PkId | Guid | 主键 |
-| NameIcon | string | 产品分类图标 |
+| NameIcon | string | 产品分类图标，暂未使用 |
 | Name | string | 产品分类名称 |
-| SysetemNumber | string | 系统编号 |
-| Sort | int | 排序 |
+| SysetemNumber | string | 系统编号，暂未使用 |
+| Sort | int | 排序，暂未使用 |
 | CreateTime | DateTime | 创建日期 |
 | UpdateTime | DateTime | 更新日期 |
 | CateList | Object | 拥有的品类，暂未使用 |
 | IsSystemHas | bool | 是否系统默认 |
-| IsSelected | bool | 是否选中 |
-| OwnerProductTypePkId | Guid | 自己的产品类型编号 |
-| FkBrandsSellerPkId | Guid | 品牌商用户PkId |
-| BrandsSellerName | string | 品牌商用户名称 |
-| FkBranchSellerPkId | Guid | 网点商用户PkId |
-| BranchSellerName | string | 网点商用户名称 |
-| SystemPublickPkId | Guid | 生成的系统公用PkId |
+| IsSelected | bool | 是否选中，暂未使用 |
+| OwnerProductTypePkId | Guid | 自己的产品类型编号，暂未使用 |
+| FkBrandsSellerPkId | Guid | 品牌商用户PkId，暂未使用 |
+| BrandsSellerName | string | 品牌商用户名称，暂未使用 |
+| FkBranchSellerPkId | Guid | 网点商用户PkId，暂未使用 |
+| BranchSellerName | string | 网点商用户名称，暂未使用 |
+| SystemPublickPkId | Guid | 生成的系统公用PkId，暂未使用 |
 
 ProductCategory（产品线）：
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
 | PkId | Guid | 主键 |
+| Name | string | 产品线名称 |
+| SystemNumber | string | 系统编号 |
+| NameIcon | string | 名称Icon |
+| Sort | int | 排序 |
+| ProductBrand | Object | 产品品牌 |
+| ProductType | Object | 产品分类 |
+| CreateTime | DateTime | 创建时间 |
+| UpdateTime | DateTime | 更新时间 |
+| FaultList | List&lt;Object&gt; | 故障类型列表 |
+| IsSelected | bool | 是否选中 |
+| TradePkId | Guid | 订单PkId |
+| ParentId | Guid | 父级PkId |
+| ParentSubPkId | Guid | 父级子键 |
+| ProductInfo | Object | 产品品类 |
+| IsSystemHas | bool | 是否系统默认 |
+| OwnerProductTypePkId |  |  |
+| FkBrandsSellerPkId |  |  |
+| BrandsSellerName |  |  |
+| FkBranchSellerPkId |  |  |
+| BranchSellerName |  |  |
+| SystemPublickPkId |  |  |
+| ServiceMethod |  |  |
+| CategoryTitlePic |  |  |
 
 
 
