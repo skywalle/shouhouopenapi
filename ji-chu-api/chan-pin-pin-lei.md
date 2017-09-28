@@ -177,28 +177,28 @@ ProductCategory（产品线）：
 | :--- | :--- | :--- |
 | PkId | Guid | 主键 |
 | Name | string | 产品线名称 |
-| SystemNumber | string | 系统编号 |
-| NameIcon | string | 名称Icon |
+| SystemNumber | string | 系统编号，暂未使用 |
+| NameIcon | string | 名称图标，暂未使用 |
 | Sort | int | 排序 |
-| ProductBrand | Object | 产品品牌 |
-| ProductType | Object | 产品分类 |
+| ProductBrand | Object | 产品品牌，暂未使用 |
+| ProductType | Object | 产品分类，暂未使用 |
 | CreateTime | DateTime | 创建时间 |
 | UpdateTime | DateTime | 更新时间 |
-| FaultList | List&lt;Object&gt; | 故障类型列表 |
-| IsSelected | bool | 是否选中 |
-| TradePkId | Guid | 订单PkId |
+| FaultList | List&lt;Object&gt; | 故障类型列表，暂未使用 |
+| IsSelected | bool | 是否选中，暂未使用 |
+| TradePkId | Guid | 订单PkId，暂未使用 |
 | ParentId | Guid | 父级PkId |
-| ParentSubPkId | Guid | 父级子键 |
-| ProductInfo | Object | 产品品类 |
+| ParentSubPkId | Guid | 父级子键，暂未使用 |
+| ProductInfo | Object | 产品品类，暂未使用 |
 | IsSystemHas | bool | 是否系统默认 |
-| OwnerProductTypePkId |  |  |
-| FkBrandsSellerPkId |  |  |
-| BrandsSellerName |  |  |
-| FkBranchSellerPkId |  |  |
-| BranchSellerName |  |  |
-| SystemPublickPkId |  |  |
-| ServiceMethod |  |  |
-| CategoryTitlePic |  |  |
+| OwnerProductTypePkId | Guid | 所属产品分类ID，暂未使用 |
+| FkBrandsSellerPkId | Guid | 品牌商用户PkId，暂未使用 |
+| BrandsSellerName | string | 品牌商用户名称，暂未使用 |
+| FkBranchSellerPkId | Guid | 网点商用户PkId，暂未使用 |
+| BranchSellerName | string | 网点商用户名称，暂未使用 |
+| SystemPublickPkId | Guid | 系统公共PkId，暂未使用 |
+| ServiceMethod | List&lt;Object&gt; | 服务措施列表，暂未使用 |
+| CategoryTitlePic | string | 产品品类图片，暂未使用 |
 
 
 
