@@ -42,8 +42,6 @@ Sample:
     "Lat": 1.0,  /*纬度*/
     "Level": 1,  /*层级：省=1，区级市=2，地级市=3，镇=4*/
     "Sort": 1,   /*同一Level排序，升序*/
-    "IsSelect": true,  /*弃用*/
-    "IsDisable": true  /*弃用*/
   },
   ...
 ]

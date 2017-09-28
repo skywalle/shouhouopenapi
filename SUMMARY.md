@@ -7,8 +7,8 @@
 
 ## 基础API
 * [省市区](ji-chu-api/sheng-shi-qu-xin-xi.md)
-* [服务品牌](ji-chu-api/fu-wu-pin-pai.md)
 * [购买渠道](ji-chu-api/gou-mai-qu-dao.md)
+* [服务品牌](ji-chu-api/fu-wu-pin-pai.md)
 * [服务类型](ji-chu-api/fu-wu-lei-xing.md)
 * [产品线](ji-chu-api/chan-pin-xian.md)
 * [产品品类](ji-chu-api/chan-pin-pin-lei.md)
