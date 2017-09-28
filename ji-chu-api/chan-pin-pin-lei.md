@@ -150,5 +150,11 @@ GET
 | CategoryTitlePic | string | 产品线图片，暂未使用 |
 | SystemSpecificationPkId | Guid | 系统原始编码，暂未使用 |
 
+ProductType（产品分类）：
+
+
+
+ProductCategory（产品线）：
+
 
 
