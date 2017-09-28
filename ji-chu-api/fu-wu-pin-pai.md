@@ -65,8 +65,26 @@ GET
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
-|  |  |  |
+| PageIndex | int | 页面索引值 |
+| PageSize | int | 每页数据条目数 |
+| PageCount | int | 数据记录总页数 |
+| DataCount | int | 数据记录总条目数 |
+| total | int | 同DataCount |
+
+DataRows 字段说明：
+
+| 返回字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| PkId | Guid | 品牌主键 |
+| Title | string | 品牌主题 |
+| TitlePic | string | 主题图片 |
+| Category | string | 品牌分类 |
+| ReadCount | int | 阅读数 |
+| BrandLogo | string | 品牌Logo |
+| BrandContent | string | 品牌正文 |
+| WapSiteQr | string | WAP站二维码 |
+| BrandSort | int | 品牌排序 |
+| BrandType | string | 品牌类型 |
 
 
 
