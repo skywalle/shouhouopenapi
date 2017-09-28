@@ -8,7 +8,7 @@ brands/trade/fullinfo/{pkId}
 
 # 支持格式
 
-{url}?k1=v1&k2=v2&k3=v3&...
+{url}/{pkId}
 
 # HTTP请求方式
 
@@ -32,905 +32,901 @@ GET
 
 `{`
 
-` "FalutInfo": null,`
+`"FalutInfo": null,`
 
-` "PkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"PkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "TradeId": "636348491297724153",`
+`"TradeId": "636348491297724153",`
 
-` "TradeNo": null,`
+`"TradeNo": null,`
 
-` "ServiceType": {`
+`"ServiceType": {`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "PkId": "c51fd394-9f64-6ca0-2835-c756c739c877",`
+`"PkId": "c51fd394-9f64-6ca0-2835-c756c739c877",`
 
-` "Name": "家电安装",`
+`"Name": "家电安装",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "WebIcon": {`
+`"WebIcon": {`
 
-` "Name": "icon-anzhuang",`
+`"Name": "icon-anzhuang",`
 
-` "Text": "专业技能，标准服务"`
+`"Text": "专业技能，标准服务"`
 
-` },`
+`},`
 
-` "TradeIcon": null,`
+`"TradeIcon": null,`
 
-` "AppMark": null,`
+`"AppMark": null,`
 
-` "DescText": null,`
+`"DescText": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "Background": null,`
+`"Background": null,`
 
-` "IsPortalDisplay": null,`
+`"IsPortalDisplay": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "ProductTypes": null,`
+`"ProductTypes": null,`
 
-` "ProductCategorys": null`
+`"ProductCategorys": null`
 
-` },`
+`},`
 
-` "ProductInfo": {`
+`"ProductInfo": {`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "PkId": "42203b90-65af-8ece-0c1f-a523a1121f74",`
+`"PkId": "42203b90-65af-8ece-0c1f-a523a1121f74",`
 
-` "Name": "双开门冰箱",`
+`"Name": "双开门冰箱",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "ProductType": {`
+`"ProductType": {`
 
-` "PkId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
+`"PkId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",`
 
-` "NameIcon": null,`
+`"NameIcon": null,`
 
-` "Name": "大家电",`
+`"Name": "大家电",`
 
-` "SystemNumber": null,`
+`"SystemNumber": null,`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "UpdateTime": null,`
+`"UpdateTime": null,`
 
-` "CateList": null,`
+`"CateList": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "OwnerProductTypePkId": null,`
+`"OwnerProductTypePkId": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "SystemPublickPkId": null`
+`"SystemPublickPkId": null`
 
-` },`
+`},`
 
-` "ProductBrand": {`
+`"ProductBrand": {`
 
-` "PkId": "d12c1c1c-ebd5-893f-9d4a-1b801c219524",`
+`"PkId": "d12c1c1c-ebd5-893f-9d4a-1b801c219524",`
 
-` "Name": "测试品牌",`
+`"Name": "测试品牌",`
 
-` "NameIcon": null,`
+`"NameIcon": null,`
 
-` "ProductTypes": null,`
+`"ProductTypes": null,`
 
-` "ProductCategorys": null,`
+`"ProductCategorys": null,`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "UserId": null,`
+`"UserId": null,`
 
-` "UserName": null,`
+`"UserName": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "IsBind": null,`
+`"IsBind": null,`
 
-` "TotalScore": null,`
+`"TotalScore": null,`
 
-` "TotalOrderCount": null,`
+`"TotalOrderCount": null,`
 
-` "IsSelected": null`
+`"IsSelected": null`
 
-` },`
+`},`
 
-` "ProductCategory": {`
+`"ProductCategory": {`
 
-` "PkId": "acea2081-1781-7c21-a14c-68b929110814",`
+`"PkId": "acea2081-1781-7c21-a14c-68b929110814",`
 
-` "Name": "冰箱",`
+`"Name": "冰箱",`
 
-` "SystemNumber": null,`
+`"SystemNumber": null,`
 
-` "NameIcon": null,`
+`"NameIcon": null,`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "ProductBrand": null,`
+`"ProductBrand": null,`
 
-` "ProductType": null,`
+`"ProductType": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "UpdateTime": null,`
+`"UpdateTime": null,`
 
-` "FaultList": null,`
+`"FaultList": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "ParentId": null,`
+`"ParentId": null,`
 
-` "ParentSubPkId": null,`
+`"ParentSubPkId": null,`
 
-` "ProductInfo": null,`
+`"ProductInfo": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "OwnerProductTypePkId": null,`
+`"OwnerProductTypePkId": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "SystemPublickPkId": null,`
+`"SystemPublickPkId": null,`
 
-` "ServiceMethod": null,`
+`"ServiceMethod": null,`
 
-` "CategoryTitlePic": null`
+`"CategoryTitlePic": null`
 
-` },`
+`},`
 
-` "ProductInfo": null,`
+`"ProductInfo": null,`
 
-` "SerialNumber": null,`
+`"SerialNumber": null,`
 
-` "ProductModel": [`
+`"ProductModel": [`
 
-` {`
+`{`
 
-` "PkId": null,`
+`"PkId": null,`
 
-` "Name": null,`
+`"Name": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "FkSpecificationPkId": null,`
+`"FkSpecificationPkId": null,`
 
-` "SpecificationName": null`
+`"SpecificationName": null`
 
-` }`
+`}`
 
-` ],`
+`],`
 
-` "ProductModelOne": null,`
+`"ProductModelOne": null,`
 
-` "FaultProblem": null,`
+`"FaultProblem": null,`
 
-` "FaultReason": null,`
+`"FaultReason": null,`
 
-` "BuyTime": null,`
+`"BuyTime": null,`
 
-` "FormatTime": null,`
+`"FormatTime": null,`
 
-` "BuyChannel": null,`
+`"BuyChannel": null,`
 
-` "ServiceCount": null,`
+`"ServiceCount": null,`
 
-` "FwMethod": null,`
+`"FwMethod": null,`
 
-` "ServiceMethod": null,`
+`"ServiceMethod": null,`
 
-` "FwContent": null,`
+`"FwContent": null,`
 
-` "FkBrandsSellerPkId": null,`
+`"FkBrandsSellerPkId": null,`
 
-` "BrandsSellerName": null,`
+`"BrandsSellerName": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "BranchSellerName": null,`
+`"BranchSellerName": null,`
 
-` "ErrorInfo": null,`
+`"ErrorInfo": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "IsSystemHas": null,`
+`"IsSystemHas": null,`
 
-` "SystemNumber": null,`
+`"SystemNumber": null,`
 
-` "ParentId": null,`
+`"ParentId": null,`
 
-` "MaintenanceCycle": null,`
+`"MaintenanceCycle": null,`
 
-` "OwnerProductInfoPkId": null,`
+`"OwnerProductInfoPkId": null,`
 
-` "CategoryTitlePic": null,`
+`"CategoryTitlePic": null,`
 
-` "SystemSpecificationPkId": null`
+`"SystemSpecificationPkId": null`
 
-` },`
+`},`
 
-` "MasterProductInfo": null,`
+`"MasterProductInfo": null,`
 
-` "FeedBack": null,`
+`"FeedBack": null,`
 
-` "CreateTime": "2017-07-05 10:58:49",`
+`"CreateTime": "2017-07-05 10:58:49",`
 
-` "TradeChannel": {`
+`"TradeChannel": {`
 
-` "PkId": "63edd678-c0b5-ff3d-fa73-3ce2735c2010",`
+`"PkId": "63edd678-c0b5-ff3d-fa73-3ce2735c2010",`
 
-` "Name": "品牌商提交-超级售后",`
+`"Name": "品牌商提交-超级售后",`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "IsBranch": null`
+`"IsBranch": null`
 
-` },`
+`},`
 
-` "OverlayBranch": null,`
+`"OverlayBranch": null,`
 
-` "BranchInfo": {`
+`"BranchInfo": {`
 
-` "SerialNumber": null,`
+`"SerialNumber": null,`
 
-` "PkId": "ad546cb8-aac1-4bd0-8f4b-162bdfc9946f",`
+`"PkId": "ad546cb8-aac1-4bd0-8f4b-162bdfc9946f",`
 
-` "UserName": "安徽美菱空调网点",`
+`"UserName": "安徽美菱空调网点",`
 
-` "Name": "安徽美菱空调网点",`
+`"Name": "安徽美菱空调网点",`
 
-` "ShopName": "安徽美菱空调网点",`
+`"ShopName": "安徽美菱空调网点",`
 
-` "BranchAddress": null,`
+`"BranchAddress": null,`
 
-` "BranchTel": null,`
+`"BranchTel": null,`
 
-` "BranchIcon": "http://oss.surdata.com/cs/common/636386602455698078.jpg",`
+`"BranchIcon": "http://oss.surdata.com/cs/common/636386602455698078.jpg",`
 
-` "BranchProvice": null,`
+`"BranchProvice": null,`
 
-` "BranchCity": null,`
+`"BranchCity": null,`
 
-` "BranchArea": null,`
+`"BranchArea": null,`
 
-` "BranchProviceId": null,`
+`"BranchProviceId": null,`
 
-` "BranchCityId": null,`
+`"BranchCityId": null,`
 
-` "BranchAreaId": null,`
+`"BranchAreaId": null,`
 
-` "Password": null,`
+`"Password": null,`
 
-` "Contact": {`
+`"Contact": {`
 
-` "TradePkId": null,`
+`"TradePkId": null,`
 
-` "Province": null,`
+`"Province": null,`
 
-` "ProvinceId": null,`
+`"ProvinceId": null,`
 
-` "City": null,`
+`"City": null,`
 
-` "CityId": null,`
+`"CityId": null,`
 
-` "Area": null,`
+`"Area": null,`
 
-` "AreaId": null,`
+`"AreaId": null,`
 
-` "AddInfo": null,`
+`"AddInfo": null,`
 
-` "Name": "宋小杰",`
+`"Name": "宋小杰",`
 
-` "Mobile": "17088888888",`
+`"Mobile": "17088888888",`
 
-` "Telephone": null,`
+`"Telephone": null,`
 
-` "Lng": null,`
+`"Lng": null,`
 
-` "Lat": null,`
+`"Lat": null,`
 
-` "Sex": null`
+`"Sex": null`
 
-` },`
+`},`
 
-` "AuthServiceRegions": null,`
+`"AuthServiceRegions": null,`
 
-` "AuthProductCates": null,`
+`"AuthProductCates": null,`
 
-` "AuthServiceTypes": null,`
+`"AuthServiceTypes": null,`
 
-` "LastDaysTradeCount": null,`
+`"LastDaysTradeCount": null,`
 
-` "TotalTradeCount": null,`
+`"TotalTradeCount": null,`
 
-` "TotalScore": null,`
+`"TotalScore": null,`
 
-` "GoodRate": null,`
+`"GoodRate": null,`
 
-` "BadRate": null,`
+`"BadRate": null,`
 
-` "IsCollection": null,`
+`"IsCollection": null,`
 
-` "RelationStatus": null,`
+`"RelationStatus": null,`
 
-` "CooperationStatus": null,`
+`"CooperationStatus": null,`
 
-` "CooperationMethod": null,`
+`"CooperationMethod": null,`
 
-` "MasterCount": null,`
+`"MasterCount": null,`
 
-` "BranchStatus": null,`
+`"BranchStatus": null,`
 
-` "EvaluationCount": null,`
+`"EvaluationCount": null,`
 
-` "Remark": null,`
+`"Remark": null,`
 
-` "CancelReason": null,`
+`"CancelReason": null,`
 
-` "CancelTime": null,`
+`"CancelTime": null,`
 
-` "CancelCooperReason": null,`
+`"CancelCooperReason": null,`
 
-` "CancelCooperTime": null,`
+`"CancelCooperTime": null,`
 
-` "RefuseReason": null,`
+`"RefuseReason": null,`
 
-` "RefuseTime": null,`
+`"RefuseTime": null,`
 
-` "RejectReason": null,`
+`"RejectReason": null,`
 
-` "RejectTime": null,`
+`"RejectTime": null,`
 
-` "JoinTime": null,`
+`"JoinTime": null,`
 
-` "CreateTime": "2017-03-15 15:55:30",`
+`"CreateTime": "2017-03-15 15:55:30",`
 
-` "BranchIdenCode": "BR636251901307327883",`
+`"BranchIdenCode": "BR636251901307327883",`
 
-` "DataFrom": null,`
+`"DataFrom": null,`
 
-` "ServiceTypePkId": "00000000-0000-0000-0000-000000000000",`
+`"ServiceTypePkId": "00000000-0000-0000-0000-000000000000",`
 
-` "ServiceRange": null,`
+`"ServiceRange": null,`
 
-` "FaultMsg": null,`
+`"FaultMsg": null,`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "CreateBrandsSellerPkId": null,`
+`"CreateBrandsSellerPkId": null,`
 
-` "IsBrandsCreate": null,`
+`"IsBrandsCreate": null,`
 
-` "CompanyImage": null,`
+`"CompanyImage": null,`
 
-` "RegisterFrom": "网点自注册",`
+`"RegisterFrom": "网点自注册",`
 
-` "BankInfo": null,`
+`"BankInfo": null,`
 
-` "EstimatedMile": null,`
+`"EstimatedMile": null,`
 
-` "EstimatedTrafficFee": null,`
+`"EstimatedTrafficFee": null,`
 
-` "OrderVerName": null,`
+`"OrderVerName": null,`
 
-` "BranchIndustry": null,`
+`"BranchIndustry": null,`
 
-` "OrderExpireDate": null,`
+`"OrderExpireDate": null,`
 
-` "IsEnabledSpareParts": false,`
+`"IsEnabledSpareParts": false,`
 
-` "FlowSource": null`
+`"FlowSource": null`
 
-` },`
+`},`
 
-` "Payment": null,`
+`"Payment": null,`
 
-` "ReserveTime": "2017-07-05 10:58:00",`
+`"ReserveTime": "2017-07-05 10:58:00",`
 
-` "MasterReserveTime": null,`
+`"MasterReserveTime": null,`
 
-` "MasterReserveStatus": null,`
+`"MasterReserveStatus": null,`
 
-` "ConfirmHome": {`
+`"ConfirmHome": {`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "HomeTime": null,`
+`"HomeTime": null,`
 
-` "Lng": null,`
+`"Lng": null,`
 
-` "Lat": null,`
+`"Lat": null,`
 
-` "AddressInfo": null,`
+`"AddressInfo": null,`
 
-` "TradeOrder": null,`
+`"TradeOrder": null,`
 
-` "ComfirmHomeStatus": null`
+`"ComfirmHomeStatus": null`
 
-` },`
+`},`
 
-` "IsSwap": null,`
+`"IsSwap": null,`
 
-` "EvaluateStat": null,`
+`"EvaluateStat": null,`
 
-` "EvaluateReason": 0,`
+`"EvaluateReason": 0,`
 
-` "BuyerInfo": {`
+`"BuyerInfo": {`
 
-` "PkId": "5327a292-1688-4974-b2d0-ef288d6cc1fa",`
+`"PkId": "5327a292-1688-4974-b2d0-ef288d6cc1fa",`
 
-` "UserName": "13333333333",`
+`"UserName": "13333333333",`
 
-` "LoginTime": "2017-09-20 11:57:10",`
+`"LoginTime": "2017-09-20 11:57:10",`
 
-` "ProductCount": 14,`
+`"ProductCount": 14,`
 
-` "TradeCount": 1,`
+`"TradeCount": 1,`
 
-` "ServiceCount": 1,`
+`"ServiceCount": 1,`
 
-` "LastTradeTime": "2017-08-26 15:52:07",`
+`"LastTradeTime": "2017-08-26 15:52:07",`
 
-` "Name": null,`
+`"Name": null,`
 
-` "Mobile": "13333333333",`
+`"Mobile": "13333333333",`
 
-` "Address": null,`
+`"Address": null,`
 
-` "DetailAddress": null,`
+`"DetailAddress": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "ProductMaintenanceCount": null,`
+`"ProductMaintenanceCount": null,`
 
-` "ProductChangeCount": null`
+`"ProductChangeCount": null`
 
-` },`
+`},`
 
-` "Contact": {`
+`"Contact": {`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "Province": "天津",`
+`"Province": "天津",`
 
-` "ProvinceId": 120000,`
+`"ProvinceId": 120000,`
 
-` "City": "天津市",`
+`"City": "天津市",`
 
-` "CityId": 120100,`
+`"CityId": 120100,`
 
-` "Area": "河北区",`
+`"Area": "河北区",`
 
-` "AreaId": 120105,`
+`"AreaId": 120105,`
 
-` "AddInfo": "不说",`
+`"AddInfo": "不说",`
 
-` "Name": "皮卡丘不想动",`
+`"Name": "皮卡丘不想动",`
 
-` "Mobile": "13333333333",`
+`"Mobile": "13333333333",`
 
-` "Telephone": null,`
+`"Telephone": null,`
 
-` "Lng": null,`
+`"Lng": null,`
 
-` "Lat": null,`
+`"Lat": null,`
 
-` "Sex": null`
+`"Sex": null`
 
-` },`
+`},`
 
-` "TradeStatus": {`
+`"TradeStatus": {`
 
-` "PkId": "30c723c0-dd69-1bc6-dd4a-bf2bae5e00f9",`
+`"PkId": "30c723c0-dd69-1bc6-dd4a-bf2bae5e00f9",`
 
-` "Name": "等待师傅预约",`
+`"Name": "等待师傅预约",`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "Cate": null`
+`"Cate": null`
 
-` },`
+`},`
 
-` "ServiceStatus": "等待师傅预约",`
+`"ServiceStatus": "等待师傅预约",`
 
-` "EvaCount": null,`
+`"EvaCount": null,`
 
-` "GuaranteeInfo": {`
+`"GuaranteeInfo": {`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "PkId": "20f32225-1e8e-8800-e7cd-17ca56951a0d",`
+`"PkId": "20f32225-1e8e-8800-e7cd-17ca56951a0d",`
 
-` "Name": "保内"`
+`"Name": "保内"`
 
-` },`
+`},`
 
-` "IsGuarantee": null,`
+`"IsGuarantee": null,`
 
-` "CloseReason": {`
+`"CloseReason": {`
 
-` "ReasonId": "00000000-0000-0000-0000-000000000000",`
+`"ReasonId": "00000000-0000-0000-0000-000000000000",`
 
-` "ReasonName": null`
+`"ReasonName": null`
 
-` },`
+`},`
 
-` "CancelTime": null,`
+`"CancelTime": null,`
 
-` "FormatTime": null,`
+`"FormatTime": null,`
 
-` "BrandsSellerInfo": null,`
+`"BrandsSellerInfo": null,`
 
-` "BranchSellerInfo": null,`
+`"BranchSellerInfo": null,`
 
-` "IsConfirm": null,`
+`"IsConfirm": null,`
 
-` "BranchName": "安徽美菱空调网点",`
+`"BranchName": "安徽美菱空调网点",`
 
-` "IsHasBranch": true,`
+`"IsHasBranch": true,`
 
-` "ReMark": null,`
+`"ReMark": null,`
 
-` "MasterInfo": {`
+`"MasterInfo": {`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "PkId": "bdd7f6c3-2d05-4bdf-8be5-557be2753e46",`
+`"PkId": "bdd7f6c3-2d05-4bdf-8be5-557be2753e46",`
 
-` "UserName": "13122233345",`
+`"UserName": "13122233345",`
 
-` "SellerInfo": null,`
+`"SellerInfo": null,`
 
-` "BranchInfo": null,`
+`"BranchInfo": null,`
 
-` "FullName": "王八蛋",`
+`"FullName": "王八蛋",`
 
-` "Mobile": "13122233345",`
+`"Mobile": "13122233345",`
 
-` "Password": null,`
+`"Password": null,`
 
-` "Avatar": null,`
+`"Avatar": null,`
 
-` "BaseSalary": null,`
+`"BaseSalary": null,`
 
-` "ServiceScore": null,`
+`"ServiceScore": null,`
 
-` "WorkStatus": null,`
+`"WorkStatus": null,`
 
-` "WorkSatausIcon": null,`
+`"WorkSatausIcon": null,`
 
-` "MaxTradeCount": null,`
+`"MaxTradeCount": null,`
 
-` "TradeCount": null,`
+`"TradeCount": null,`
 
-` "TradeTotalCount": null,`
+`"TradeTotalCount": null,`
 
-` "AlreadyPay": null,`
+`"AlreadyPay": null,`
 
-` "SurplusCount": null,`
+`"SurplusCount": null,`
 
-` "Percentage": null,`
+`"Percentage": null,`
 
-` "CommissionRule": null,`
+`"CommissionRule": null,`
 
-` "ServiceTypes": null,`
+`"ServiceTypes": null,`
 
-` "ProduceList": null,`
+`"ProduceList": null,`
 
-` "HerderStr": null,`
+`"HerderStr": null,`
 
-` "IsSendMobileMsg": null,`
+`"IsSendMobileMsg": null,`
 
-` "PassportPositive": null,`
+`"PassportPositive": null,`
 
-` "PassportNegative": null,`
+`"PassportNegative": null,`
 
-` "RegisterFrom": null,`
+`"RegisterFrom": null,`
 
-` "AuditStatus": null,`
+`"AuditStatus": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "IsBound": null,`
+`"IsBound": null,`
 
-` "BranchName": null,`
+`"BranchName": null,`
 
-` "ServiceRange": null,`
+`"ServiceRange": null,`
 
-` "ServiceRangeList": null,`
+`"ServiceRangeList": null,`
 
-` "StartLevel": null,`
+`"StartLevel": null,`
 
-` "ApprovalStatus": null,`
+`"ApprovalStatus": null,`
 
-` "IsSelected": null,`
+`"IsSelected": null,`
 
-` "RefusedReason": null,`
+`"RefusedReason": null,`
 
-` "ServiceEndTradeCount": null,`
+`"ServiceEndTradeCount": null,`
 
-` "WaitAppointTradeCount": null,`
+`"WaitAppointTradeCount": null,`
 
-` "WaitServiceTradeCount": null,`
+`"WaitServiceTradeCount": null,`
 
-` "Sort": null,`
+`"Sort": null,`
 
-` "Passport": null,`
+`"Passport": null,`
 
-` "PassportCode": null,`
+`"PassportCode": null,`
 
-` "FkCommissionRulePkId": null,`
+`"FkCommissionRulePkId": null,`
 
-` "BankInfo": null,`
+`"BankInfo": null,`
 
-` "FkBranchSellerPkId": null,`
+`"FkBranchSellerPkId": null,`
 
-` "DeviceId": null,`
+`"DeviceId": null,`
 
-` "DeviceInfo": null,`
+`"DeviceInfo": null,`
 
-` "VoiceBroadcast": null,`
+`"VoiceBroadcast": null,`
 
-` "ServiceRegions": null,`
+`"ServiceRegions": null,`
 
-` "ApprovalTime": null,`
+`"ApprovalTime": null,`
 
-` "FisrtLoginTime": null,`
+`"FisrtLoginTime": null,`
 
-` "WxUserOpenId": null,`
+`"WxUserOpenId": null,`
 
-` "WxUnionId": null,`
+`"WxUnionId": null,`
 
-` "WxHeadImgUrl": null,`
+`"WxHeadImgUrl": null,`
 
-` "WxNickName": null,`
+`"WxNickName": null,`
 
-` "FlowSource": null,`
+`"FlowSource": null,`
 
-` "Province": null,`
+`"Province": null,`
 
-` "City": null,`
+`"City": null,`
 
-` "ProvinceId": null,`
+`"ProvinceId": null,`
 
-` "CityId": null,`
+`"CityId": null,`
 
-` "AreaId": null,`
+`"AreaId": null,`
 
-` "Area": null,`
+`"Area": null,`
 
-` "AddressInfo": null,`
+`"AddressInfo": null,`
 
-` "RefusedTime": null,`
+`"RefusedTime": null,`
 
-` "RefusedUserName": null`
+`"RefusedUserName": null`
 
-` },`
+`},`
 
-` "Pattern": null,`
+`"Pattern": null,`
 
-` "BadReviewTime": null,`
+`"BadReviewTime": null,`
 
-` "CheckWorkStatus": null,`
+`"CheckWorkStatus": null,`
 
-` "RightTopTime": null,`
+`"RightTopTime": null,`
 
-` "InLeftTime": "2017-07-05",`
+`"InLeftTime": "2017-07-05",`
 
-` "InRightTime": "10:58",`
+`"InRightTime": "10:58",`
 
-` "TradeIconName": null,`
+`"TradeIconName": null,`
 
-` "ProductModel": {`
+`"ProductModel": {`
 
-` "PkId": null,`
+`"PkId": null,`
 
-` "Name": null,`
+`"Name": null,`
 
-` "CreateTime": null,`
+`"CreateTime": null,`
 
-` "FkSpecificationPkId": null,`
+`"FkSpecificationPkId": null,`
 
-` "SpecificationName": null`
+`"SpecificationName": null`
 
-` },`
+`},`
 
-` "SerialNumber": null,`
+`"SerialNumber": null,`
 
-` "BuyTime": null,`
+`"BuyTime": null,`
 
-` "FwContent": null,`
+`"FwContent": null,`
 
-` "ExceptionType": null,`
+`"ExceptionType": null,`
 
-` "IsNowDate": null,`
+`"IsNowDate": null,`
 
-` "MorningAfternoon": null,`
+`"MorningAfternoon": null,`
 
-` "SubmitPriceTime": null,`
+`"SubmitPriceTime": null,`
 
-` "ServicePriceList": null,`
+`"ServicePriceList": null,`
 
-` "EvalList": null,`
+`"EvalList": null,`
 
-` "TradeServicePrice": null,`
+`"TradeServicePrice": null,`
 
-` "IsExistEval": null,`
+`"IsExistEval": null,`
 
-` "FkBrandsSellerPkId": "72030fd5-2628-4303-bbcb-30898207b52a",`
+`"FkBrandsSellerPkId": "72030fd5-2628-4303-bbcb-30898207b52a",`
 
-` "IsCompleteVisit": null,`
+`"IsCompleteVisit": null,`
 
-` "VisitFeedBackList": null,`
+`"VisitFeedBackList": null,`
 
-` "ServiceImageList": [`
+`"ServiceImageList": [`
 
+`],`
 
+`"IsExistComplaints": null,`
 
-` ],`
+`"IsSmsVisit": null,`
 
-` "IsExistComplaints": null,`
+`"IsWeixinVisit": null,`
 
-` "IsSmsVisit": null,`
+`"ComplaintsIsEnd": null,`
 
-` "IsWeixinVisit": null,`
+`"IsExistReminder": null,`
 
-` "ComplaintsIsEnd": null,`
+`"ReminderIsEnd": null,`
 
-` "IsExistReminder": null,`
+`"IsUrgentProcess": null,`
 
-` "ReminderIsEnd": null,`
+`"ComplaintsList": [`
 
-` "IsUrgentProcess": null,`
+`],`
 
-` "ComplaintsList": [`
+`"TradeProductServiceRemind": null,`
 
+`"RegionAgentInfo": null,`
 
+`"DelayProcessStatus": null,`
 
-` ],`
+`"BadReviewProcessStatus": null,`
 
-` "TradeProductServiceRemind": null,`
+`"FkSourceTradePkId": null,`
 
-` "RegionAgentInfo": null,`
+`"FkSouceBrandsSellerPkId": null,`
 
-` "DelayProcessStatus": null,`
+`"SouceBrandsShopName": null,`
 
-` "BadReviewProcessStatus": null,`
+`"IsDockingTrade": null,`
 
-` "FkSourceTradePkId": null,`
+`"FkDockingShopPkId": null,`
 
-` "FkSouceBrandsSellerPkId": null,`
+`"FkDockingTradePkId": null,`
 
-` "SouceBrandsShopName": null,`
+`"ReserveNoon": null,`
 
-` "IsDockingTrade": null,`
+`"TradeFinance": null,`
 
-` "FkDockingShopPkId": null,`
+`"TradeServiceMethod": null,`
 
-` "FkDockingTradePkId": null,`
+`"TradeProductBrand": {`
 
-` "ReserveNoon": null,`
+`"TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
 
-` "TradeFinance": null,`
+`"PkId": "d12c1c1c-ebd5-893f-9d4a-1b801c219524",`
 
-` "TradeServiceMethod": null,`
+`"Name": "测试品牌"`
 
-` "TradeProductBrand": {`
+`},`
 
-` "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",`
+`"TradeSparePartList": null,`
 
-` "PkId": "d12c1c1c-ebd5-893f-9d4a-1b801c219524",`
+`"FaultType": null,`
 
-` "Name": "测试品牌"`
+`"DockingShopName": null,`
 
-` },`
+`"IsGuaranteeCreated": null,`
 
-` "TradeSparePartList": null,`
+`"OriginalCreateTime": null,`
 
-` "FaultType": null,`
+`"EndVisitedTime": null,`
 
-` "DockingShopName": null,`
+`"DispatchBranchTime": null,`
 
-` "IsGuaranteeCreated": null,`
+`"MasterReserveOptTime": null,`
 
-` "OriginalCreateTime": null,`
+`"BranchEndServiceTime": null,`
 
-` "EndVisitedTime": null,`
+`"TradeProductSpecification": null,`
 
-` "DispatchBranchTime": null,`
+`"IsReject": null,`
 
-` "MasterReserveOptTime": null,`
+`"SettlerPkId": null,`
 
-` "BranchEndServiceTime": null,`
+`"SettlerName": null,`
 
-` "TradeProductSpecification": null,`
+`"SettleTime": null,`
 
-` "IsReject": null,`
+`"BranchDispatchMasterOptTime": null,`
 
-` "SettlerPkId": null,`
+`"IsReassigned": null,`
 
-` "SettlerName": null,`
+`"RejectTime": null,`
 
-` "SettleTime": null,`
+`"RejectStatus": null,`
 
-` "BranchDispatchMasterOptTime": null,`
+`"RejectRecordList": null,`
 
-` "IsReassigned": null,`
+`"RejectProcessRecordList": null,`
 
-` "RejectTime": null,`
+`"TradeCount": null,`
 
-` "RejectStatus": null,`
+`"FkBranchSellerPkId": "ad546cb8-aac1-4bd0-8f4b-162bdfc9946f",`
 
-` "RejectRecordList": null,`
+`"BranchSellerName": null,`
 
-` "RejectProcessRecordList": null,`
+`"SendTradeBranchType": null,`
 
-` "TradeCount": null,`
+`"FkBrandsSubUserPkId": null,`
 
-` "FkBranchSellerPkId": "ad546cb8-aac1-4bd0-8f4b-162bdfc9946f",`
+`"BuyChannel": null,`
 
-` "BranchSellerName": null,`
+`"FkDispatchKefuUserPkId": null,`
 
-` "SendTradeBranchType": null,`
+`"ReservDelayStatus": null,`
 
-` "FkBrandsSubUserPkId": null,`
+`"DoorDelayStatus": null,`
 
-` "BuyChannel": null,`
+`"ServiceDelayStatus": null,`
 
-` "FkDispatchKefuUserPkId": null,`
+`"CallSeat": null,`
 
-` "ReservDelayStatus": null,`
+`"IsReservDelayOrder": null,`
 
-` "DoorDelayStatus": null,`
+`"IsDoorDelayOrder": null,`
 
-` "ServiceDelayStatus": null,`
+`"IsServiceDelayOrder": null,`
 
-` "CallSeat": null,`
+`"QualityIdentyStatus": null,`
 
-` "IsReservDelayOrder": null,`
+`"QualityIdentyInfo": null,`
 
-` "IsDoorDelayOrder": null,`
-
-` "IsServiceDelayOrder": null,`
-
-` "QualityIdentyStatus": null,`
-
-` "QualityIdentyInfo": null,`
-
-` "FkCallingPkId": null`
+`"FkCallingPkId": null`
 
 `}`
 
