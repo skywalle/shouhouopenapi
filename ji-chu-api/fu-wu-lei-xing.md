@@ -95,7 +95,18 @@ GET
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| PkId | Guid | 服务类型主键 |
+| Name | string | 服务类型名称 |
+| Sort | int | 服务类型排序 |
+| WebIcon | Object | 服务类型前台标识 |
+| AppMark | Object | 服务类型程序标识 |
+| DescText | string | 服务类型说明 |
+| CreateTime | DateTime | 创建时间 |
+| Background | string | 背景图片 |
+| IsPortalDisplay | bool | 是否显示 |
+| IsSystemHas | bool | 是否系统默认 |
+| ProductTypes | Object | 产品分类 |
+| ProductCategorys | Object | 产品线 |
 
 
 
