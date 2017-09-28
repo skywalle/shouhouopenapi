@@ -6,7 +6,7 @@
 
 # 请求地址
 
-site\/trade\/buy\/channel\/list
+site/trade/buy/channel/list
 
 # 支持格式
 
@@ -54,4 +54,6 @@ GET
 |  |  |  |
 |  |  |  |
 |  |  |  |
+
+
 

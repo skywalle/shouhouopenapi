@@ -6,7 +6,7 @@
 
 # 请求地址
 
-common\/region\/list\/province
+common/region/list/province
 
 # 支持格式
 

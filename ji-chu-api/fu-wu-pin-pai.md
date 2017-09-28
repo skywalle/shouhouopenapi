@@ -6,7 +6,7 @@
 
 # 请求地址
 
-manage\/webdoc\/brand\/page
+manage/webdoc/brand/page
 
 # 支持格式
 
@@ -62,4 +62,6 @@ GET
   "total": 173
 }
 ```
+
+
 
