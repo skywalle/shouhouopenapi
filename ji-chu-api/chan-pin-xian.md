@@ -73,11 +73,10 @@ GET
 | SystemNumber | string | 编码 |
 | NameIcon | string | 名称Icon |
 | Sort | int | 排序 |
-| IsSystemHas | bool | 是否为系统默认产品线 |
-| ProductBrand | Object | 产品品牌 |
-| ProductType | Object | 产品分类 |
 | CreateTime | DateTime | 创建时间 |
 | UpdateTime | DateTime | 更新时间 |
+| ParentId | Guid | 上级分类Id |
+| CategoryTitlePic | string | 产品线图片 |
 
 
 
