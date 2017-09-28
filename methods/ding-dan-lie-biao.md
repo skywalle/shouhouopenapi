@@ -31,6 +31,8 @@ GET
 
 搜索参数，用QueryString传递。
 
+v =2 使用新版API接口。
+
 | 名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | v | int | yes | 版本号，2 |
@@ -448,7 +450,7 @@ GET
       "IsCompleteVisit": null,
       "VisitFeedBackList": null,
       "ServiceImageList": [
-        
+
       ],
       "IsExistComplaints": null,
       "IsSmsVisit": null,
@@ -517,7 +519,7 @@ GET
      ...
   ],
   "total": null
-}    
+}
 ```
 
 
