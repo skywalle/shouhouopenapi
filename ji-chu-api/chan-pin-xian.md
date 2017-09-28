@@ -71,7 +71,7 @@ GET
 | PkId | Guid | 产品线PkId |
 | Name | string | 产品线名称 |
 | SystemNumber | string | 编码 |
-| NameIcon | string | 名称Icon |
+| NameIcon | string | 名称图标 |
 | Sort | int | 排序 |
 | CreateTime | DateTime | 创建时间 |
 | UpdateTime | DateTime | 更新时间 |
