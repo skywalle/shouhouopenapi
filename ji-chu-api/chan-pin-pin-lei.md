@@ -161,7 +161,7 @@ ProductType（产品分类）：
 | Sort | int | 排序，暂未使用 |
 | CreateTime | DateTime | 创建日期 |
 | UpdateTime | DateTime | 更新日期 |
-| CateList | Object | 拥有的品类，暂未使用 |
+| CateList | List&lt;Object&gt; | 拥有的品类列表，暂未使用 |
 | IsSystemHas | bool | 是否系统默认 |
 | IsSelected | bool | 是否选中，暂未使用 |
 | OwnerProductTypePkId | Guid | 自己的产品类型编号，暂未使用 |
