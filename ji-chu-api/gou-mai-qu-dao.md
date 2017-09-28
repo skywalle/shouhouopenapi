@@ -6,7 +6,7 @@
 
 # 请求地址
 
-/v1/site/trade/buy/channel/list
+site\/trade\/buy\/channel\/list
 
 # 支持格式
 
