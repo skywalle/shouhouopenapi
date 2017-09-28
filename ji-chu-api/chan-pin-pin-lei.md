@@ -10,7 +10,7 @@ manager/product/info/list/{productCatePkId}
 
 # 支持格式
 
-{url}?k1=v1
+{url}/{productCatePkId}
 
 # HTTP请求方式
 
@@ -66,7 +66,10 @@ GET
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| PkId | Guid | 主键 |
+| TradePkId | Guid | 订单PkId |
+| Name | string | 产品品类名称 |
+| Sort | int | 排序 |
 |  |  |  |
 
 
