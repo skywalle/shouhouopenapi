@@ -31,7 +31,9 @@ GET
 
 # 注意事项
 
-返回数据为分页数据，其中分页索引PageIndex = \(offset / limit\) + 1;
+1.请求用户需在“系统管理组”内。
+
+2.返回数据为分页数据，其中分页索引PageIndex = \(offset / limit\) + 1;
 
 # 返回结果
 
