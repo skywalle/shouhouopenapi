@@ -86,7 +86,7 @@ GET
 | FkBrandsSellerPkId | Guid | 品牌商ID，暂未使用 |
 | FkBrandsSellerName | string | 品牌商名称，暂未使用 |
 | SystemPublicPkId | Guid | 生成的系统公用PkId，暂未使用 |
-| ServiceMethod | Object | 服务措施列表，暂未使用 |
+| ServiceMethod | List&lt;Object&gt; | 服务措施列表，暂未使用 |
 
 
 
