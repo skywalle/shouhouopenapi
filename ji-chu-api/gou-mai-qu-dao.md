@@ -56,8 +56,8 @@ GET
 | --- | --- | --- |
 | PkId | Guid | 主键 |
 | Name | string | 购买渠道名称 |
-| TradeId | Guid | 订单PkId |
-| IsBranch | bool | 是否是网点 |
+| TradeId | Guid | 订单PkId，暂未使用 |
+| IsBranch | bool | 是否是网点，暂未使用 |
 
 
 

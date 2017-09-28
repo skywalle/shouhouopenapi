@@ -105,8 +105,8 @@ GET
 | Background | string | 背景图片 |
 | IsPortalDisplay | bool | 是否显示 |
 | IsSystemHas | bool | 是否系统默认 |
-| ProductTypes | Object | 产品分类 |
-| ProductCategorys | Object | 产品线 |
+| ProductTypes | Object | 产品分类，暂未使用 |
+| ProductCategorys | Object | 产品线，暂未使用 |
 
 
 
