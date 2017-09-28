@@ -47,3 +47,16 @@ Sample:
 ]
 ```
 
+| 返回字段 | 字段类型 | 字段说明 |
+| --- | --- | --- |
+| PkId | int | 区域主键Id |
+| AreaName | string | 区域名称 |
+| ParentId | int | 上级区域Id |
+| ShortName | string | 区域名称简称 |
+| Lng | decimal | 经度 |
+| Lat | decimal | 维度 |
+| Level | int | 省=1，区域市=2，地级市=3，乡镇=4 |
+| Sort | int | 同一等级区域的排序 |
+
+
+
