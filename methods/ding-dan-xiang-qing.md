@@ -4,7 +4,7 @@
 
 # 请求地址
 
-brands\/trade\/fullinfo\/{pkId}
+brands/trade/fullinfo/{pkId}
 
 # 支持格式
 

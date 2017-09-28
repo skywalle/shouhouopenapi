@@ -6,7 +6,7 @@
 
 # 请求地址
 
-manager\/product\/category\/list
+manager/product/category/list
 
 # 支持格式
 

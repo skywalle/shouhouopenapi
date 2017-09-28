@@ -6,7 +6,7 @@
 
 # 请求地址
 
-branch\/trade\/create
+branch/trade/create
 
 # 支持格式
 

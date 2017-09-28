@@ -6,7 +6,7 @@
 
 # 请求地址
 
-manager\/product\/info\/list\/{productCatePkId}
+manager/product/info/list/{productCatePkId}
 
 # 支持格式
 

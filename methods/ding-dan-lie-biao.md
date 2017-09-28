@@ -6,7 +6,7 @@
 
 # 请求地址
 
-brands\/trade\/page\/{pageIndex}\/{pageSize}
+brands/trade/page/{pageIndex}/{pageSize}
 
 # 支持格式
 

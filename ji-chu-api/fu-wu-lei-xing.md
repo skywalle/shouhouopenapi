@@ -6,7 +6,7 @@
 
 # 请求地址
 
-brands\/service\/type\/list
+brands/service/type/list
 
 # 支持格式
 
