@@ -6,7 +6,7 @@
 
 # 请求地址
 
-/v1/common/region/list/province
+common\/region\/list\/province
 
 # 支持格式
 
@@ -48,6 +48,4 @@ Sample:
   ...
 ]
 ```
-
-
 

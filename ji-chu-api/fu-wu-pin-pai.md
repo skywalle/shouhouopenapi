@@ -6,7 +6,7 @@
 
 # 请求地址
 
-manage/webdoc/brand/page
+manage\/webdoc\/brand\/page
 
 # 支持格式
 
@@ -35,57 +35,31 @@ GET
 
 # 返回结果
 
-\`\`\`
-
-\`\`\`
-
+```
 {
-
-"PageIndex": 1,
-
-"PageSize": 10,
-
-"PageCount": 18,
-
-"DataCount": 173,
-
-"DataName": null,
-
-"DateDesc": null,
-
-"IsSelect": null,
-
-"DataRows": \[
-
-{
-
-"PkId": "84211b38-cd6a-ccf5-da87-28e60d2cf54b",
-
-"Title": "AOC",
-
-"TitlePic": "http:\/\/surdataoss.oss-cn-qingdao.aliyuncs.com\/cs\/webdoc\/636264652527083798.jpg",
-
-"Category": "电视",
-
-"ReadCount": null,
-
-"BrandLogo": "http:\/\/surdataoss.oss-cn-qingdao.aliyuncs.com\/cs\/webdoc\/636264652413089634.jpg",
-
-"BrandContent": null,
-
-"WapSiteQr": null,
-
-"BrandSort": 0,
-
-"BrandType": "冠捷（AOC） "
-
-},
-
-...
-
-\],
-
-"total": 173
-
+  "PageIndex": 1,
+  "PageSize": 10,
+  "PageCount": 18,
+  "DataCount": 173,
+  "DataName": null,
+  "DateDesc": null,
+  "IsSelect": null,
+  "DataRows": [
+    {
+      "PkId": "84211b38-cd6a-ccf5-da87-28e60d2cf54b",
+      "Title": "AOC",
+      "TitlePic": "http://surdataoss.oss-cn-qingdao.aliyuncs.com/cs/webdoc/636264652527083798.jpg",
+      "Category": "电视",
+      "ReadCount": null,
+      "BrandLogo": "http://surdataoss.oss-cn-qingdao.aliyuncs.com/cs/webdoc/636264652413089634.jpg",
+      "BrandContent": null,
+      "WapSiteQr": null,
+      "BrandSort": 0,
+      "BrandType": "冠捷（AOC） "
+    },
+    ...
+  ],
+  "total": 173
 }
+```
 
