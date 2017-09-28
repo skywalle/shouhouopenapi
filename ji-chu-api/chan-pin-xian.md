@@ -77,7 +77,7 @@ GET
 | UpdateTime | DateTime | 更新时间 |
 | ParentId | Guid | 上级分类ID |
 | CategoryTitlePic | string | 产品线图片 |
-| FaultList | Object | 故障类型，暂未使用 |
+| FaultList | List&lt;Object&gt; | 故障类型，暂未使用 |
 | IsSelected | bool | 是否选中，暂未使用 |
 | TradePkId | Guid | 订单主键ID，暂未使用 |
 | ParentSubPkId | Guid | 父级子键，暂未使用 |
