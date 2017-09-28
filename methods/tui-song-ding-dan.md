@@ -10,7 +10,7 @@ branch/trade/create
 
 # 支持格式
 
-{url}?k1=v1&k2=v2&k3=v3&...
+普通Form
 
 # HTTP请求方式
 
@@ -47,11 +47,9 @@ POST
 
 # 注意事项
 
-暂无
+
 
 # 返回结果
 
-string:
 
-“成功了”  or “失败了” + 错误信息
 
