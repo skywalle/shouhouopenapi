@@ -542,5 +542,11 @@ v = 2 使用新版API接口。
 | MasterName | string | 师傅姓名，暂未使用 |
 | total | int | 同DataCount，暂未使用 |
 
+TradeInfo（订单返回字段说明）
+
+| 返回字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+|  |  |  |
+
 
 
