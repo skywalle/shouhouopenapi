@@ -529,7 +529,7 @@ v = 2 使用新版API接口。
 | PageIndex | int | 当前页码 |
 | PageSize | int | 每页条数 |
 | PageCount | int | 总页数 |
-| DataRows | List&lt;Object&gt; | 订单数据列表 |
+| DataRows | List&lt;TradeInfo&gt; | 订单数据列表 |
 | DataCount | int | 数据总条目数 |
 | DataName | string | 数据记录名称 |
 | DateDesc | string | 数据描述，暂未使用 |
