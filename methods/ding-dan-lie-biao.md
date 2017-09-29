@@ -526,7 +526,21 @@ v = 2 使用新版API接口。
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| PageIndex | int | 当前页码 |
+| PageSize | int | 每页条数 |
+| PageCount | int | 总页数 |
+| DataRows | List&lt;Object&gt; | 订单数据列表 |
+| DataCount | int | 数据总条目数 |
+| DataName | string | 数据记录名称 |
+| DateDesc | string | 数据描述，暂未使用 |
+| IsSelect | bool | 是否选中，暂未使用 |
+| MasterNormalCardCount | int | 师傅正常打卡次数，暂未使用 |
+| MasterLateCardCount | int | 师傅迟到打卡次数，暂未使用 |
+| MasterMissCardCount | int | 师傅缺勤打卡次数，暂未使用 |
+| MasterOutCardCount | int | 师傅外勤打卡次数，暂未使用 |
+| IsNowDate | bool | 是否当前日期，暂未使用 |
+| MasterName | string | 师傅姓名，暂未使用 |
+| total | int | 同DataCount，暂未使用 |
 
 
 
