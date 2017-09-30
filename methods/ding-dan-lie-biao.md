@@ -546,7 +546,46 @@ TradeInfo（订单返回字段说明）
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| PkId | Guid | 订单主键 |
+| TradeId | string | 唯一订单编号 |
+| TradeNo | string | 订单流水号 |
+| ServiceType | Object | 订单服务类型 |
+| ProductInfo | Object | 产品信息表 |
+| MasterProductInfo | Object |  师傅的产品信息，暂未使用 |
+| FeedBack | string | 反馈情况 |
+| CreateTime | DateTime | 订单创建时间 |
+| TradeChnnel | Object | 订单来源 |
+| OverlayBranch | Object | 覆盖网点 |
+| BranchInfo | Object | 派单网点 |
+| Payment | deciaml | 订单总额 |
+| ReserveTime | DateTime | 预约时间 |
+| MasterReserveStatus | string | 师傅预约状态 |
+| ConfirmHome | Object | 确认上门 |
+| IsSwap | bool | 是否可改派 |
+| EvaluateStat | int | 评价星数 |
+| EvaluateReason | int | 评价里有 |
+| BuyerInfo | Object | 下单用户信息 |
+| Contact | Object | 订单联系人信息 |
+| TradeStatus | Object | 订单服务状态信息 |
+| ServiceStatus | string | 订单服务状态 |
+| IsGuarantee | bool | 是否保修期内 |
+| CloseReason | Object | 订单取消原因 |
+| CancelTime | DateTime | 订单取消时间 |
+| FormatTime | DateTime | 格式化时间，暂未使用 |
+| BrandsSellerInfo | Object | 品牌商用户信息 |
+| BranchSellerInfo | Object | 网点商用户信息 |
+| IsConfirm | bool | 是否确认上门 |
+| BranchName | string | 网点名称 |
+| IsHasBranch | bool | 是否已达网点 |
+| ReMark | string | 服务兵端服务备注 |
+| MasterInfo | Object | 师傅信息 |
+| Pattern | string | 派单模式 |
+| BadReviewTime | DateTime | 差评时间 |
+| CheckWorkStatus | Object | 师傅考勤信息，暂未使用 |
+| RightTopTime | string |  |
+| InLeftTime | string |  |
+| InRightTime | string |  |
+| TradeIconName | string |  |
 
 
 
