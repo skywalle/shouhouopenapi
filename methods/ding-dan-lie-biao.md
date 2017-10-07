@@ -550,7 +550,7 @@ TradeInfo（订单）返回字段说明
 | TradeId | string | 唯一订单编号 |
 | TradeNo | string | 订单流水号 |
 | ServiceType | Object | 订单服务类型 |
-| ProductInfo | Object | 产品信息表 |
+| ProductInfo | Object | 产品品类，参见产品品类相关API |
 | MasterProductInfo | Object | 师傅的产品信息，暂未使用 |
 | FeedBack | string | 反馈情况 |
 | CreateTime | DateTime | 订单创建时间 |
@@ -682,8 +682,6 @@ ServiceType   \(订单服务类型\)返回字段说明
 | IsSystemHas | bool | 是否是系统原有（不能修改） |
 | ProductTypes | Object | 产品分类 |
 | ProductCategorys | Object | 产品线 |
-
-
 
 
 
