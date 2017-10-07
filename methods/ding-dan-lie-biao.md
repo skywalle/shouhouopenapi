@@ -586,6 +586,42 @@ TradeInfo（订单返回字段说明）
 | InLeftTime | string |  |
 | InRightTime | string |  |
 | TradeIconName | string |  |
+| ProductModel | Object | 工单产品型号 |
+| SerialNumber | string | 服务兵端-产品序列号 |
+| BuyTime | DateTime | 服务兵端-购买时间 |
+| FwContent | string | 服务兵端-服务内容描述 |
+| ExceptionType | string | 异常订单来源类型 |
+| IsNowDate | bool | 是否当前日期 |
+| MorningAfternoon | string | 上午/下午 |
+| SubmitPriceTime | DateTime | 提交报价时间 |
+| ServicePriceList | List&lt;Object&gt; | 服务报价列表 |
+| EvalList | List&lt;Object&gt; | 评论内容 |
+| TradeServicePrice | Object | 订单报价金额信息 |
+| IsExistEval | bool | 订单是否存在报价 |
+| FkBrandsSellerPkId | Guid | 外键品牌商Id |
+| IsCompleteVisit | bool | 是否已回访 |
+| VisitFeedBackList | List&lt;Object&gt; | 回访单-回访反馈记录 |
+| ServiceImageList | List&lt;Object&gt; | 服务照片集 |
+| IsExistComplaints | bool | 是否存在订单投诉 |
+| IsSmsVisit | bool | 是否已短信回访 |
+| IsWeixinVisit | bool | 是否已微信回访 |
+| ComplaintsIsEnd | bool | 投诉处理是否完成 |
+| IsExistReminder | bool | 是否存在催单 |
+| ReminderIsEnd | bool | 催单是否完成 |
+| IsUrgentProcess | bool | 是否加急处理 |
+| ComplaintsList | List&lt;Object&gt; | 投诉记录 |
+| TradeProductServiceRemind | Object |  |
+| RegionAgentInfo | Object | 区域代理商信息 |
+| DelayProcessStatus | string | 延期处理状态 |
+| BadReviewProcessStatus | string | 差评处理状态 |
+| FkSourceTradePkId | Guid | 原订单编号 |
+| FkSouceBrandsSellerPkId | Guid | 原订单品牌商编号 |
+| SouceBrandsShopName | string | 原订单品牌商名称 |
+| IsDockingTrade | bool | 是否已成为联保商订单 |
+| FkDockingShopPkId | Guid | 联保商ID |
+| FkDockingTradePkId | Guid | 联保商订单编号 |
+|  |  |  |
+|  |  |  |
 
 
 
