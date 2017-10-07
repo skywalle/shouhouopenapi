@@ -624,6 +624,15 @@ TradeInfo（订单返回字段说明）
 | TradeFinance | Object | 订单相关金额 |
 | TradeServiceMethod | Object | 订单服务措施 |
 | TradeProductBrand | Object | 订单产品品牌 |
+| TradeSparePartList | List&lt;Object&gt; | 备件明细列表 |
+| FaultType | string | 故障类型（维修订单时需要） |
+| DockingShopName | string | 订单指派联保-联保商名称 |
+| IsGuaranteeCreated | bool | 是否联保商自营订单 |
+| OriginalCreateTime | DateTime | 原始订单下单时间 |
+| EndVisitedTime | DateTime | 回访完成时间 |
+| DispatchBranchTime | DateTime | 派单到网点的时间 |
+| MasterReserveOptTime | DateTime | 师傅预约操作的时间 |
+| BranchEndServiceTime | DateTime | 网点完成服务的时间 |
 
 
 
