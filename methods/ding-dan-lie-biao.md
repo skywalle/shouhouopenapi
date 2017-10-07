@@ -654,13 +654,14 @@ TradeInfo（订单返回字段说明）
 | ReservDelayStatus | string | 预约延期处理状态 |
 | DoorDelayStatus | string | 上门延期处理状态 |
 | ServiceDelayStatus | string | 服务延时处理状态 |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| CallSeat | int | 呼叫坐席 |
+| IsReservDelayOrder | bool | 是否预约延时 |
+| IsDoorDelayOrder | bool | 是否上门延时 |
+| IsServiceDelayOrder | bool | 是否服务延时 |
+| QualityIdentyStatus | string | 质量鉴定状态 |
+| QualityIdentyInfo | Object | 质量鉴定信息 |
+| FkCallingPkId | Guid | 呼叫通话编码 |
+| BrandsSellerName | string | 品牌商用户名称 |
 |  |  |  |
 
 
