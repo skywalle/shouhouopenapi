@@ -665,3 +665,23 @@ TradeInfo（订单）返回字段说明
 
 ServiceType   \(订单服务类型\)返回字段说明
 
+| 返回字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| PkId | Guid | 服务类型ID |
+| TradePkId | Guid | 所属订单ID |
+| Name | string | 服务类型名称 |
+| Sort | int | 服务类型排序 |
+| WebIcon | Object | 服务类型前台标识 |
+| TradeIcon | Object | 服务类型订单标识 |
+| AppMark | Object | AppMark |
+| DescText | string | 服务类型说明 |
+| CreateTime | DateTime | 创建时间 |
+| IsSelected | bool | 是否被选中 |
+| Background | string | 背景图片 |
+| IsPortalDisplay | bool | IsPortalDisplay |
+| IsSystemHas | bool | 是否是系统原有（不能修改） |
+| ProductTypes | Object | 产品分类 |
+| ProductCategorys | Object | 产品线 |
+
+
+
