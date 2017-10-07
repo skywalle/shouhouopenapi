@@ -634,8 +634,13 @@ TradeInfo（订单返回字段说明）
 | MasterReserveOptTime | DateTime | 师傅预约操作的时间 |
 | BranchEndServiceTime | DateTime | 网点完成服务的时间 |
 | TradeProductSpecification | Object | 产品规格 |
-|  |  |  |
-|  |  |  |
+| IsReject | bool | 是否驳回 |
+| SettlerPkId | Guid | 结算人编号 |
+| SettlerName | string | 结算人名称 |
+| SettleTime | DateTime | 结算时间 |
+| BranchDispatchMasterOptTime | DateTime | 网点派单到师傅的操作时间 |
+| IsReassigned | bool | 是否改派 |
+| RejectTime | DateTime | 驳回时间 |
 |  |  |  |
 |  |  |  |
 
