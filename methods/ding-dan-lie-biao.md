@@ -662,7 +662,6 @@ TradeInfo（订单返回字段说明）
 | QualityIdentyInfo | Object | 质量鉴定信息 |
 | FkCallingPkId | Guid | 呼叫通话编码 |
 | BrandsSellerName | string | 品牌商用户名称 |
-|  |  |  |
 
 
 
