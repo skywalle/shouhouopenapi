@@ -654,6 +654,14 @@ TradeInfo（订单返回字段说明）
 | ReservDelayStatus | string | 预约延期处理状态 |
 | DoorDelayStatus | string | 上门延期处理状态 |
 | ServiceDelayStatus | string | 服务延时处理状态 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 
 
