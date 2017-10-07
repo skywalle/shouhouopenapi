@@ -542,7 +542,7 @@ v = 2 使用新版API接口。
 | MasterName | string | 师傅姓名，暂未使用 |
 | total | int | 同DataCount，暂未使用 |
 
-TradeInfo（订单返回字段说明）
+TradeInfo（订单）返回字段说明
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
@@ -663,5 +663,5 @@ TradeInfo（订单返回字段说明）
 | FkCallingPkId | Guid | 呼叫通话编码 |
 | BrandsSellerName | string | 品牌商用户名称 |
 
-
+ServiceType   \(订单服务类型\)返回字段说明
 
