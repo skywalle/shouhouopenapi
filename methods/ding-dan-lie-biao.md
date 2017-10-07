@@ -678,10 +678,12 @@ ServiceType   \(订单服务类型\)返回字段说明
 | CreateTime | DateTime | 创建时间 |
 | IsSelected | bool | 是否被选中 |
 | Background | string | 背景图片 |
-| IsPortalDisplay | bool | IsPortalDisplay |
+| IsPortalDisplay | bool | 是否显示 |
 | IsSystemHas | bool | 是否是系统原有（不能修改） |
 | ProductTypes | Object | 产品分类 |
 | ProductCategorys | Object | 产品线 |
+
+
 
 
 
