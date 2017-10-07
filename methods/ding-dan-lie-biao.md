@@ -359,7 +359,7 @@ v = 2 使用新版API接口。
         "UserName": "13122233345",
         "SellerInfo": null,
         "BranchInfo": null,
-        "FullName": "王八蛋",
+        "FullName": "王师傅",
         "Mobile": "13122233345",
         "Password": null,
         "Avatar": null,
@@ -551,7 +551,7 @@ TradeInfo（订单返回字段说明）
 | TradeNo | string | 订单流水号 |
 | ServiceType | Object | 订单服务类型 |
 | ProductInfo | Object | 产品信息表 |
-| MasterProductInfo | Object |  师傅的产品信息，暂未使用 |
+| MasterProductInfo | Object | 师傅的产品信息，暂未使用 |
 | FeedBack | string | 反馈情况 |
 | CreateTime | DateTime | 订单创建时间 |
 | TradeChnnel | Object | 订单来源 |
