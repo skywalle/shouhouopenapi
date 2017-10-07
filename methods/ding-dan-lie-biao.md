@@ -610,7 +610,7 @@ TradeInfo（订单返回字段说明）
 | ReminderIsEnd | bool | 催单是否完成 |
 | IsUrgentProcess | bool | 是否加急处理 |
 | ComplaintsList | List&lt;Object&gt; | 投诉记录 |
-| TradeProductServiceRemind | Object |  |
+| TradeProductServiceRemind | Object | 订单产品服务备注 |
 | RegionAgentInfo | Object | 区域代理商信息 |
 | DelayProcessStatus | string | 延期处理状态 |
 | BadReviewProcessStatus | string | 差评处理状态 |
@@ -641,8 +641,19 @@ TradeInfo（订单返回字段说明）
 | BranchDispatchMasterOptTime | DateTime | 网点派单到师傅的操作时间 |
 | IsReassigned | bool | 是否改派 |
 | RejectTime | DateTime | 驳回时间 |
-|  |  |  |
-|  |  |  |
+| RejectStatus | string | 驳回状态 |
+| RejectRecordList | List&lt;Object&gt; | 驳回记录列表 |
+| RejectProcessRecordList | List&lt;Object&gt; | 驳回进度记录列表 |
+| TradeCount | int |  |
+| FkBranchSellerPkId | Guid | 所属网点ID |
+| BranchSellerName | string | 所属网点名称 |
+| SendTradeBranchType | strinig | 派单类型：联保商、合作网点 |
+| FkBrandsSubUserPkId | Guid | 品牌商子账号用户ID |
+| BuyChannel | string | 购买渠道 |
+| FkDispatchKefuUserPkId | Guid | 客服分单用户编号 |
+| ReservDelayStatus | string | 预约延期处理状态 |
+| DoorDelayStatus | string | 上门延期处理状态 |
+| ServiceDelayStatus | string | 服务延时处理状态 |
 
 
 
