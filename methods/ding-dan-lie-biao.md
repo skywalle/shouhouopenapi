@@ -620,8 +620,10 @@ TradeInfo（订单返回字段说明）
 | IsDockingTrade | bool | 是否已成为联保商订单 |
 | FkDockingShopPkId | Guid | 联保商ID |
 | FkDockingTradePkId | Guid | 联保商订单编号 |
-|  |  |  |
-|  |  |  |
+| ReserveNoon | string | 预约时间：上午、中午、下午 |
+| TradeFinance | Object | 订单相关金额 |
+| TradeServiceMethod | Object | 订单服务措施 |
+| TradeProductBrand | Object | 订单产品品牌 |
 
 
 
