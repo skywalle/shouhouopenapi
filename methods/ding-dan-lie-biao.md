@@ -633,6 +633,11 @@ TradeInfo（订单返回字段说明）
 | DispatchBranchTime | DateTime | 派单到网点的时间 |
 | MasterReserveOptTime | DateTime | 师傅预约操作的时间 |
 | BranchEndServiceTime | DateTime | 网点完成服务的时间 |
+| TradeProductSpecification | Object | 产品规格 |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
 
 
 
