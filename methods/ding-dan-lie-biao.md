@@ -672,5 +672,24 @@ TradeChannel（订单来源）字段说明
 | TradePkId | Guid | 订单PkId |
 | IsBranch | bool | 是否网点 |
 
+Contact \(联系人信息\) 字段说明
+
+| 字段说明 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| TradePkId | Guid | 所属订单ID |
+| Province | string | 省份 |
+| ProvinceId | int | 省份id |
+| City | string | 城市 |
+| CityId | int | 城市id |
+| Area | string | 地区 |
+| AreaId | int | 地区id |
+| AddInfo | string |  地址 |
+| Name | string | 联系人姓名 |
+| Mobile | string | 手机 |
+| Telephone | string | 联系电话 |
+| Lng | decimal | 经度 |
+| Lat | decimal | 维度 |
+| Sex | string | 性别 |
+
 
 
