@@ -663,7 +663,14 @@ TradeInfo（订单）返回字段说明
 | FkCallingPkId | Guid | 呼叫通话编码 |
 | BrandsSellerName | string | 品牌商用户名称 |
 
+TradeChannel（订单来源）字段说明
 
+| 返回字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| PkId | Guid | 订单来源ID |
+| Name | string | 订单来源名称 |
+| TradePkId | Guid | 订单PkId |
+| IsBranch | bool | 是否网点 |
 
 
 
