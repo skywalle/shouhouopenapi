@@ -549,7 +549,7 @@ TradeInfo（订单）返回字段说明
 | PkId | Guid | 订单主键 |
 | TradeId | string | 唯一订单编号 |
 | TradeNo | string | 订单流水号 |
-| ServiceType | Object | 订单服务类型 |
+| ServiceType | Object | 订单服务类型，参见服务类型相关API |
 | ProductInfo | Object | 产品品类，参见产品品类相关API |
 | MasterProductInfo | Object | 师傅的产品信息，暂未使用 |
 | FeedBack | string | 反馈情况 |
@@ -663,25 +663,7 @@ TradeInfo（订单）返回字段说明
 | FkCallingPkId | Guid | 呼叫通话编码 |
 | BrandsSellerName | string | 品牌商用户名称 |
 
-ServiceType   \(订单服务类型\)返回字段说明
 
-| 返回字段 | 字段类型 | 字段说明 |
-| :--- | :--- | :--- |
-| PkId | Guid | 服务类型ID |
-| TradePkId | Guid | 所属订单ID |
-| Name | string | 服务类型名称 |
-| Sort | int | 服务类型排序 |
-| WebIcon | Object | 服务类型前台标识 |
-| TradeIcon | Object | 服务类型订单标识 |
-| AppMark | Object | AppMark |
-| DescText | string | 服务类型说明 |
-| CreateTime | DateTime | 创建时间 |
-| IsSelected | bool | 是否被选中 |
-| Background | string | 背景图片 |
-| IsPortalDisplay | bool | 是否显示 |
-| IsSystemHas | bool | 是否是系统原有（不能修改） |
-| ProductTypes | Object | 产品分类 |
-| ProductCategorys | Object | 产品线 |
 
 
 
