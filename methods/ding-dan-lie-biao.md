@@ -683,13 +683,19 @@ Contact \(联系人信息\) 字段说明
 | CityId | int | 城市id |
 | Area | string | 地区 |
 | AreaId | int | 地区id |
-| AddInfo | string |  地址 |
+| AddInfo | string | 地址 |
 | Name | string | 联系人姓名 |
 | Mobile | string | 手机 |
 | Telephone | string | 联系电话 |
 | Lng | decimal | 经度 |
 | Lat | decimal | 维度 |
 | Sex | string | 性别 |
+
+BranchInfo （网点） 返回字段说明
+
+| 返回字段 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+|  |  |  |
 
 
 
