@@ -711,7 +711,21 @@ BranchInfo （网点） 返回字段说明
 | BranchAreaId | int | 区Id |
 | Password | string | 登录密码 |
 | Contact | Object | 参考联系人信息字段说明 |
-| AuthServiceRegions | List&lt;Object&gt; | 授权服务区域 |
+| AuthServiceRegions | List&lt;Object&gt; | 授权服务区域，暂未使用 |
+| AuthProductCates | List&lt;Object&gt; | 授权产品线，暂未使用 |
+| AuthServiceTypes | List&lt;Object&gt; | 服务类型，暂未使用 |
+| LastDaysTradeCount | int | 最近30天订单数 |
+| TotalTradeCount | int | 总单数 |
+| TotalScore | decimal | 综合评分 |
+| GoodRate | decimal | 好评率 |
+| BadRate | decimal | 差评率 |
+| IsCollection | bool | 是否收藏 |
+| RelationStatus | string | 关联状态 |
+| CooperationStatus | string | 合作状态 |
+| CooperationMethod | string | 合作方式 |
+| MasterCount | int | 拥有师傅数量 |
+| BranchStatus | string | 当前状态 |
+| EvaluationCount | int | 评论数量 |
 
 
 
