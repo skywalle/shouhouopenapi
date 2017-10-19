@@ -706,9 +706,10 @@ BranchInfo （网点） 返回字段说明
 | BranchProvice | string | 网点省 |
 | BranchCity | string | 网点市 |
 | BranchArea | string | 网点区域 |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| BranchProviceId | int | 省Id |
+| BranchCityId | int | 市Id |
+| BranchAreaId | int | 区Id |
+| Password | string | 登录密码 |
 
 
 
