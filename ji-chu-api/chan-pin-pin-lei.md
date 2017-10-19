@@ -24,7 +24,7 @@ GET
 
 | 描述 | 类型 | 必选 | 描述 |
 | --- | --- | --- | --- |
-| productCatePkId | Guid | yes | 产险品PkId |
+| productCatePkId | Guid | yes | 产品线PkId |
 
 # 注意事项
 
