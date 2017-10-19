@@ -644,7 +644,7 @@ TradeInfo（订单）返回字段说明
 | RejectStatus | string | 驳回状态 |
 | RejectRecordList | List&lt;Object&gt; | 驳回记录列表 |
 | RejectProcessRecordList | List&lt;Object&gt; | 驳回进度记录列表 |
-| TradeCount | int |  |
+| TradeCount | int | 订单数量，暂未启用 |
 | FkBranchSellerPkId | Guid | 所属网点ID |
 | BranchSellerName | string | 所属网点名称 |
 | SendTradeBranchType | strinig | 派单类型：联保商、合作网点 |
@@ -695,6 +695,19 @@ BranchInfo （网点） 返回字段说明
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
+| SerialNumber | int | 序号 |
+| PkId | Guid | 主键PkId |
+| UserName | string | 登录用户名 |
+| Name | string | 网点名称 |
+| ShopName | string | 网点名称\(跟品牌商的统一,旧的也兼容\) |
+| BranchAddress | string | 网店地址 |
+| BranchTel | string | 网点联系手机号 |
+| BranchIcon | string | 网点图标 |
+| BranchProvice | string | 网点省 |
+| BranchCity | string | 网点市 |
+| BranchArea | string | 网点区域 |
+|  |  |  |
+|  |  |  |
 |  |  |  |
 
 
