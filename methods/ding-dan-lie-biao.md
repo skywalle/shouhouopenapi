@@ -710,6 +710,8 @@ BranchInfo （网点） 返回字段说明
 | BranchCityId | int | 市Id |
 | BranchAreaId | int | 区Id |
 | Password | string | 登录密码 |
+| Contact | Object | 参考联系人信息字段说明 |
+| AuthServiceRegions | List&lt;Object&gt; | 授权服务区域 |
 
 
 
