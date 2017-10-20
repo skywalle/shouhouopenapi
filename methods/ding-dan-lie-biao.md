@@ -733,6 +733,11 @@ BranchInfo （网点） 返回字段说明
 | CancelCooperTime | string | 取消合作时间 |
 | RefuseReason | string | 拒绝原因 |
 | RefuseTime | DateTime | 拒绝时间 |
-
-
-
+| RefuseTime | string | 驳回原因 |
+| RejectReason | DateTime | 驳回时间 |
+| JoinTime | DateTime | 入住时间 |
+| CreateTime | DateTime | 创建时间 |
+| BranchIdenCode | string | 网点识别码 |
+| DataFrom | string | 数据来源 |
+| ServiceTypePkId | Guid | 添加网点时服务类型 |
+| ServiceRange | List<Object> | 授权产品线 |
