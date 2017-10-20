@@ -227,7 +227,7 @@ v = 2 使用新版API接口
           "Area": null,
           "AreaId": null,
           "AddInfo": null,
-          "Name": "宋小,
+          "Name": "宋小",
           "Mobile": "17088888888",
           "Telephone": null,
           "Lng": null,
