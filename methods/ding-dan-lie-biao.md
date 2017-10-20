@@ -359,7 +359,7 @@ v = 2 使用新版API接口
         "UserName": "13122233345",
         "SellerInfo": null,
         "BranchInfo": null,
-        "FullName": "王师��,
+        "FullName": "王宁",
         "Mobile": "13122233345",
         "Password": null,
         "Avatar": null,
