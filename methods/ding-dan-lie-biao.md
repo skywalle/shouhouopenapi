@@ -740,4 +740,4 @@ BranchInfo （网点） 返回字段说明
 | BranchIdenCode | string | 网点识别码 |
 | DataFrom | string | 数据来源 |
 | ServiceTypePkId | Guid | 添加网点时服务类型 |
-| ServiceRange | List<Object> | 授权产品线 |
+| ServiceRange | List&lt;Object&gt; | 授权产品线 |
