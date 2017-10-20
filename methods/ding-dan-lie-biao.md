@@ -16,9 +16,9 @@ brands/trade/page/{pageIndex}/{pageSize}
 
 GET
 
-# 是否需要授�
+# 是否需要授权
 
-是，品牌商组�
+是，品牌商组内
 
 # 请求参数
 
@@ -29,9 +29,9 @@ GET
 
 # 注意事项
 
-搜索参数，用QueryString传递�
+搜索参数，用QueryString传递
 
-v = 2 使用新版API接口�
+v = 2 使用新版API接口
 
 | 名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
@@ -39,10 +39,10 @@ v = 2 使用新版API接口�
 | use | string | yes | 使用es查询 |
 | ServiceTypeName | string | no | 服务类型 |
 | BrandType | string | no | 品牌类型 |
-| ProductCategoryName | string | no | 产品线名�|
+| ProductCategoryName | string | no | 产品线名称 |
 | TradeStartTime | string | no | 开始时间，格式yyyy-MM-dd HH:mm:ss |
 | TradeEndTime | string | no | 开始时间，格式yyyy-MM-dd HH:mm:ss |
-| Mobile | string | no | 手机�|
+| Mobile | string | no | 手机号 |
 | OrderNum | int | no | 排序 |
 | MasterPkId | Guid | no | 师傅PkId |
 | TradeChannelName | string | no | 订单渠道 |
@@ -94,13 +94,13 @@ v = 2 使用新版API接口�
       "ProductInfo": {
         "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",
         "PkId": "42203b90-65af-8ece-0c1f-a523a1121f74",
-        "Name": "双开门冰�,
+        "Name": "双开门冰箱",
         "Sort": null,
         "CreateTime": null,
         "ProductType": {
           "PkId": "7c2b50fc-507c-329c-552b-7b1c0ff2aab2",
           "NameIcon": null,
-          "Name": "大家�,
+          "Name": "大家电",
           "SystemNumber": null,
           "Sort": null,
           "CreateTime": null,
@@ -197,7 +197,7 @@ v = 2 使用新版API接口�
       "CreateTime": "2017-07-05 10:58:49",
       "TradeChannel": {
         "PkId": "63edd678-c0b5-ff3d-fa73-3ce2735c2010",
-        "Name": "品牌商提�超级售后",
+        "Name": "品牌商提超级售后",
         "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",
         "IsBranch": null
       },
@@ -227,7 +227,7 @@ v = 2 使用新版API接口�
           "Area": null,
           "AreaId": null,
           "AddInfo": null,
-          "Name": "宋小�,
+          "Name": "宋小��,
           "Mobile": "17088888888",
           "Telephone": null,
           "Lng": null,
@@ -269,7 +269,7 @@ v = 2 使用新版API接口�
         "CreateBrandsSellerPkId": null,
         "IsBrandsCreate": null,
         "CompanyImage": null,
-        "RegisterFrom": "网点自注�,
+        "RegisterFrom": "网点自注",
         "BankInfo": null,
         "EstimatedMile": null,
         "EstimatedTrafficFee": null,
@@ -315,9 +315,9 @@ v = 2 使用新版API接口�
         "TradePkId": "8bcc8f7f-1e52-f5b4-3ed3-3c4505adea4d",
         "Province": "天津",
         "ProvinceId": 120000,
-        "City": "天津�,
+        "City": "天津市",
         "CityId": 120100,
-        "Area": "河北�,
+        "Area": "河北省",
         "AreaId": 120105,
         "AddInfo": "不说",
         "Name": "皮卡丘不想动",
@@ -359,7 +359,7 @@ v = 2 使用新版API接口�
         "UserName": "13122233345",
         "SellerInfo": null,
         "BranchInfo": null,
-        "FullName": "王师�,
+        "FullName": "王师��,
         "Mobile": "13122233345",
         "Password": null,
         "Avatar": null,
@@ -528,19 +528,19 @@ v = 2 使用新版API接口�
 | :--- | :--- | :--- |
 | PageIndex | int | 当前页码 |
 | PageSize | int | 每页条数 |
-| PageCount | int | 总页�|
+| PageCount | int | 总页�� |
 | DataRows | List&lt;TradeInfo&gt; | 订单数据列表 |
 | DataCount | int | 数据总条目数 |
 | DataName | string | 数据记录名称 |
-| DateDesc | string | 数据描述，暂未使�|
-| IsSelect | bool | 是否选中，暂未使�|
-| MasterNormalCardCount | int | 师傅正常打卡次数，暂未使�|
-| MasterLateCardCount | int | 师傅迟到打卡次数，暂未使�|
-| MasterMissCardCount | int | 师傅缺勤打卡次数，暂未使�|
-| MasterOutCardCount | int | 师傅外勤打卡次数，暂未使�|
-| IsNowDate | bool | 是否当前日期，暂未使�|
-| MasterName | string | 师傅姓名，暂未使�|
-| total | int | 同DataCount，暂未使�|
+| DateDesc | string | 数据描述，暂未使�� |
+| IsSelect | bool | 是否选中，暂未使�� |
+| MasterNormalCardCount | int | 师傅正常打卡次数，暂未使�� |
+| MasterLateCardCount | int | 师傅迟到打卡次数，暂未使�� |
+| MasterMissCardCount | int | 师傅缺勤打卡次数，暂未使�� |
+| MasterOutCardCount | int | 师傅外勤打卡次数，暂未使�� |
+| IsNowDate | bool | 是否当前日期，暂未使�� |
+| MasterName | string | 师傅姓名，暂未使�� |
+| total | int | 同DataCount，暂未使�� |
 
 TradeInfo（订单）返回字段说明
 
@@ -548,7 +548,7 @@ TradeInfo（订单）返回字段说明
 | :--- | :--- | :--- |
 | PkId | Guid | 订单主键 |
 | TradeId | string | 唯一订单编号 |
-| TradeNo | string | 订单流水�|
+| TradeNo | string | 订单流水�� |
 | ServiceType | Object | 订单服务类型，参见服务类型相关API |
 | ProductInfo | Object | 产品品类，参见产品品类相关API |
 | MasterProductInfo | Object | 师傅的产品信息，暂未使用 |
@@ -559,21 +559,21 @@ TradeInfo（订单）返回字段说明
 | BranchInfo | Object | 派单网点 |
 | Payment | deciaml | 订单总额 |
 | ReserveTime | DateTime | 预约时间 |
-| MasterReserveStatus | string | 师傅预约状�|
+| MasterReserveStatus | string | 师傅预约状�� |
 | ConfirmHome | Object | 确认上门 |
-| IsSwap | bool | 是否可改�|
+| IsSwap | bool | 是否可改�� |
 | EvaluateStat | int | 评价星数 |
 | EvaluateReason | int | 评价里有 |
 | BuyerInfo | Object | 下单用户信息 |
-| Contact | Object | 订单联系人信�|
-| TradeStatus | Object | 订单服务状态信�|
-| ServiceStatus | string | 订单服务状�|
+| Contact | Object | 订单联系人信�� |
+| TradeStatus | Object | 订单服务状态信�� |
+| ServiceStatus | string | 订单服务状�� |
 | IsGuarantee | bool | 是否保修期内 |
 | CloseReason | Object | 订单取消原因 |
 | CancelTime | DateTime | 订单取消时间 |
 | FormatTime | DateTime | 格式化时间，暂未使用 |
-| BrandsSellerInfo | Object | 品牌商用户信�|
-| BranchSellerInfo | Object | 网点商用户信�|
+| BrandsSellerInfo | Object | 品牌商用户信�� |
+| BranchSellerInfo | Object | 网点商用户信�� |
 | IsConfirm | bool | 是否确认上门 |
 | BranchName | string | 网点名称 |
 | IsHasBranch | bool | 是否已达网点 |
@@ -581,13 +581,13 @@ TradeInfo（订单）返回字段说明
 | MasterInfo | Object | 师傅信息 |
 | Pattern | string | 派单模式 |
 | BadReviewTime | DateTime | 差评时间 |
-| CheckWorkStatus | Object | 师傅考勤信息，暂未使�|
+| CheckWorkStatus | Object | 师傅考勤信息，暂未使�� |
 | RightTopTime | string |  |
 | InLeftTime | string |  |
 | InRightTime | string |  |
 | TradeIconName | string |  |
 | ProductModel | Object | 工单产品型号 |
-| SerialNumber | string | 服务兵端-产品序列�|
+| SerialNumber | string | 服务兵端-产品序列�� |
 | BuyTime | DateTime | 服务兵端-购买时间 |
 | FwContent | string | 服务兵端-服务内容描述 |
 | ExceptionType | string | 异常订单来源类型 |
@@ -599,69 +599,69 @@ TradeInfo（订单）返回字段说明
 | TradeServicePrice | Object | 订单报价金额信息 |
 | IsExistEval | bool | 订单是否存在报价 |
 | FkBrandsSellerPkId | Guid | 外键品牌商Id |
-| IsCompleteVisit | bool | 是否已回�|
-| VisitFeedBackList | List&lt;Object&gt; | 回访�回访反馈记录 |
-| ServiceImageList | List&lt;Object&gt; | 服务照片�|
+| IsCompleteVisit | bool | 是否已回�� |
+| VisitFeedBackList | List&lt;Object&gt; | 回访��回访反馈记录 |
+| ServiceImageList | List&lt;Object&gt; | 服务照片�� |
 | IsExistComplaints | bool | 是否存在订单投诉 |
-| IsSmsVisit | bool | 是否已短信回�|
-| IsWeixinVisit | bool | 是否已微信回�|
+| IsSmsVisit | bool | 是否已短信回�� |
+| IsWeixinVisit | bool | 是否已微信回�� |
 | ComplaintsIsEnd | bool | 投诉处理是否完成 |
 | IsExistReminder | bool | 是否存在催单 |
 | ReminderIsEnd | bool | 催单是否完成 |
-| IsUrgentProcess | bool | 是否加急处�|
+| IsUrgentProcess | bool | 是否加急处�� |
 | ComplaintsList | List&lt;Object&gt; | 投诉记录 |
 | TradeProductServiceRemind | Object | 订单产品服务备注 |
-| RegionAgentInfo | Object | 区域代理商信�|
-| DelayProcessStatus | string | 延期处理状�|
-| BadReviewProcessStatus | string | 差评处理状�|
-| FkSourceTradePkId | Guid | 原订单编�|
+| RegionAgentInfo | Object | 区域代理商信�� |
+| DelayProcessStatus | string | 延期处理状�� |
+| BadReviewProcessStatus | string | 差评处理状�� |
+| FkSourceTradePkId | Guid | 原订单编�� |
 | FkSouceBrandsSellerPkId | Guid | 原订单品牌商编号 |
 | SouceBrandsShopName | string | 原订单品牌商名称 |
 | IsDockingTrade | bool | 是否已成为联保商订单 |
 | FkDockingShopPkId | Guid | 联保商ID |
-| FkDockingTradePkId | Guid | 联保商订单编�|
-| ReserveNoon | string | 预约时间：上午、中午、下�|
+| FkDockingTradePkId | Guid | 联保商订单编�� |
+| ReserveNoon | string | 预约时间：上午、中午、下�� |
 | TradeFinance | Object | 订单相关金额 |
 | TradeServiceMethod | Object | 订单服务措施 |
 | TradeProductBrand | Object | 订单产品品牌 |
 | TradeSparePartList | List&lt;Object&gt; | 备件明细列表 |
 | FaultType | string | 故障类型（维修订单时需要） |
-| DockingShopName | string | 订单指派联保-联保商名�|
-| IsGuaranteeCreated | bool | 是否联保商自营订�|
+| DockingShopName | string | 订单指派联保-联保商名�� |
+| IsGuaranteeCreated | bool | 是否联保商自营订�� |
 | OriginalCreateTime | DateTime | 原始订单下单时间 |
 | EndVisitedTime | DateTime | 回访完成时间 |
 | DispatchBranchTime | DateTime | 派单到网点的时间 |
-| MasterReserveOptTime | DateTime | 师傅预约操作的时�|
-| BranchEndServiceTime | DateTime | 网点完成服务的时�|
+| MasterReserveOptTime | DateTime | 师傅预约操作的时�� |
+| BranchEndServiceTime | DateTime | 网点完成服务的时�� |
 | TradeProductSpecification | Object | 产品规格 |
 | IsReject | bool | 是否驳回 |
-| SettlerPkId | Guid | 结算人编�|
-| SettlerName | string | 结算人名�|
+| SettlerPkId | Guid | 结算人编�� |
+| SettlerName | string | 结算人名�� |
 | SettleTime | DateTime | 结算时间 |
 | BranchDispatchMasterOptTime | DateTime | 网点派单到师傅的操作时间 |
 | IsReassigned | bool | 是否改派 |
 | RejectTime | DateTime | 驳回时间 |
-| RejectStatus | string | 驳回状�|
+| RejectStatus | string | 驳回状�� |
 | RejectRecordList | List&lt;Object&gt; | 驳回记录列表 |
 | RejectProcessRecordList | List&lt;Object&gt; | 驳回进度记录列表 |
-| TradeCount | int | 订单数量，暂未启�|
+| TradeCount | int | 订单数量，暂未启�� |
 | FkBranchSellerPkId | Guid | 所属网点ID |
-| BranchSellerName | string | 所属网点名�|
-| SendTradeBranchType | strinig | 派单类型：联保商、合作网�|
+| BranchSellerName | string | 所属网点名�� |
+| SendTradeBranchType | strinig | 派单类型：联保商、合作网�� |
 | FkBrandsSubUserPkId | Guid | 品牌商子账号用户ID |
 | BuyChannel | string | 购买渠道 |
 | FkDispatchKefuUserPkId | Guid | 客服分单用户编号 |
-| ReservDelayStatus | string | 预约延期处理状�|
-| DoorDelayStatus | string | 上门延期处理状�|
-| ServiceDelayStatus | string | 服务延时处理状�|
+| ReservDelayStatus | string | 预约延期处理状�� |
+| DoorDelayStatus | string | 上门延期处理状�� |
+| ServiceDelayStatus | string | 服务延时处理状�� |
 | CallSeat | int | 呼叫坐席 |
 | IsReservDelayOrder | bool | 是否预约延时 |
 | IsDoorDelayOrder | bool | 是否上门延时 |
 | IsServiceDelayOrder | bool | 是否服务延时 |
-| QualityIdentyStatus | string | 质量鉴定状�|
+| QualityIdentyStatus | string | 质量鉴定状�� |
 | QualityIdentyInfo | Object | 质量鉴定信息 |
 | FkCallingPkId | Guid | 呼叫通话编码 |
-| BrandsSellerName | string | 品牌商用户名�|
+| BrandsSellerName | string | 品牌商用户名�� |
 
 TradeChannel（订单来源）字段说明
 
@@ -684,7 +684,7 @@ Contact \(联系人信息\) 字段说明
 | Area | string | 地区 |
 | AreaId | int | 地区id |
 | AddInfo | string | 地址 |
-| Name | string | 联系人姓�|
+| Name | string | 联系人姓�� |
 | Mobile | string | 手机 |
 | Telephone | string | 联系电话 |
 | Lng | decimal | 经度 |
@@ -697,34 +697,34 @@ BranchInfo （网点） 返回字段说明
 | :--- | :--- | :--- |
 | SerialNumber | int | 序号 |
 | PkId | Guid | 主键PkId |
-| UserName | string | 登录用户�|
+| UserName | string | 登录用户�� |
 | Name | string | 网点名称 |
 | ShopName | string | 网点名称\(跟品牌商的统一,旧的也兼容\) |
 | BranchAddress | string | 网店地址 |
-| BranchTel | string | 网点联系手机�|
+| BranchTel | string | 网点联系手机�� |
 | BranchIcon | string | 网点图标 |
-| BranchProvice | string | 网点�|
-| BranchCity | string | 网点�|
+| BranchProvice | string | 网点�� |
+| BranchCity | string | 网点�� |
 | BranchArea | string | 网点区域 |
 | BranchProviceId | int | 省Id |
 | BranchCityId | int | 市Id |
 | BranchAreaId | int | 区Id |
 | Password | string | 登录密码 |
 | Contact | Object | 参考联系人信息字段说明 |
-| AuthServiceRegions | List&lt;Object&gt; | 授权服务区域，暂未使�|
+| AuthServiceRegions | List&lt;Object&gt; | 授权服务区域，暂未使�� |
 | AuthProductCates | List&lt;Object&gt; | 授权产品线，暂未使用 |
-| AuthServiceTypes | List&lt;Object&gt; | 服务类型，暂未使�|
-| LastDaysTradeCount | int | 最�0天订单数 |
-| TotalTradeCount | int | 总单�|
+| AuthServiceTypes | List&lt;Object&gt; | 服务类型，暂未使�� |
+| LastDaysTradeCount | int | 最��0天订单数 |
+| TotalTradeCount | int | 总单�� |
 | TotalScore | decimal | 综合评分 |
-| GoodRate | decimal | 好评�|
-| BadRate | decimal | 差评�|
+| GoodRate | decimal | 好评�� |
+| BadRate | decimal | 差评�� |
 | IsCollection | bool | 是否收藏 |
-| RelationStatus | string | 关联状�|
-| CooperationStatus | string | 合作状�|
+| RelationStatus | string | 关联状�� |
+| CooperationStatus | string | 合作状�� |
 | CooperationMethod | string | 合作方式 |
 | MasterCount | int | 拥有师傅数量 |
-| BranchStatus | string | 当前状�|
+| BranchStatus | string | 当前状�� |
 | EvaluationCount | int | 评论数量 |
 | Remark | string | 备注 |
 | CancelReason | string | 取消关联原因 |
@@ -737,22 +737,25 @@ BranchInfo （网点） 返回字段说明
 | RejectReason | DateTime | 驳回时间 |
 | JoinTime | DateTime | 入住时间 |
 | CreateTime | DateTime | 创建时间 |
-| BranchIdenCode | string | 网点识别�|
+| BranchIdenCode | string | 网点识别�� |
 | DataFrom | string | 数据来源 |
-| ServiceTypePkId | Guid | 添加网点时服务类�|
-| ServiceRange | List&lt;Object&gt; | 授权产品�|
-| FaultMsg | string | 导入的返回状�|
+| ServiceTypePkId | Guid | 添加网点时服务类�� |
+| ServiceRange | List&lt;Object&gt; | 授权产品�� |
+| FaultMsg | string | 导入的返回状�� |
 | Sort | int | 排序 |
 | CreateBrandsSellerPkId | Guid | 添加品牌商UserId |
 | IsBranchCreate | bool | 是否网点创建 |
 | CompanyImage | string | 公司图片 |
 | RegisterFrom | string | 注册来源 |
 | BankInfo | List&lt;Object&gt; | 银行卡信息，暂未使用 |
-| EstimatedMile | decimal | 预计里程 
-| EstimatedTrafficFee | decimal | 预计交通费�
-| OrderVerName | string | 订购的版本名�|
+| EstimatedMile | decimal | 预计里程 |
+| EstimatedTrafficFee | decimal | 预计交通费�� |
+| OrderVerName | string | 订购的版本名�� |
 | BranchIndustry | string | 行业 |
 | OrderExpireDate | DateTime | 订购到期时间 |
 | IsEnabledSpareParts | bool | 管理备件是否启用 |
 | FlowSource | string | 流量来源 |
 | IsServiceCenter | bool | 是否服务中心 |
+
+
+
