@@ -741,3 +741,18 @@ BranchInfo （网点） 返回字段说明
 | DataFrom | string | 数据来源 |
 | ServiceTypePkId | Guid | 添加网点时服务类型 |
 | ServiceRange | List<Object> | 授权产品线 |
+| FaultMsg | string | 导入的返回状态 |
+| Sort | int | 排序 |
+| CreateBrandsSellerPkId | Guid | 添加品牌商UserId |
+| IsBranchCreate | bool | 是否网点创建 |
+| CompanyImage | string | 公司图片 |
+| RegisterFrom | string | 注册来源 |
+| BankInfo | List&lt;Object&gt; | 银行卡信息，暂未使用 |
+| EstimatedMile | decimal | 预计里程 
+| EstimatedTrafficFee | decimal | 预计交通费用 
+| OrderVerName | string | 订购的版本名称 |
+| BranchIndustry | string | 行业 |
+| OrderExpireDate | DateTime | 订购到期时间 |
+| IsEnabledSpareParts | bool | 管理备件是否启用 |
+| FlowSource | string | 流量来源 |
+| IsServiceCenter | bool | 是否服务中心 |
