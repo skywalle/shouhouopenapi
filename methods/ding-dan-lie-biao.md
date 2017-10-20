@@ -726,6 +726,13 @@ BranchInfo （网点） 返回字段说明
 | MasterCount | int | 拥有师傅数量 |
 | BranchStatus | string | 当前状态 |
 | EvaluationCount | int | 评论数量 |
+| Remark | string | 备注 |
+| CancelReason | string | 取消关联原因 |
+| CancelTime | DateTime | 取消时间 |
+| CancelCooperReason | string | 取消合作原因 |
+| CancelCooperTime | string | 取消合作时间 |
+| RefuseReason | string | 拒绝原因 |
+| RefuseTime | DateTime | 拒绝时间 |
 
 
 
