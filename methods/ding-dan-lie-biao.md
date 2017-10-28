@@ -586,7 +586,7 @@ TradeInfo（订单）返回字段说明
 | InLeftTime | string |  |
 | InRightTime | string |  |
 | TradeIconName | string |  |
-| ProductModel | Object | 工单产品型号 |
+| ProductModel | Object | 工单产品型号，暂未使用 |
 | SerialNumber | string | 服务兵端-产品序列号 |
 | BuyTime | DateTime | 服务兵端-购买时间 |
 | FwContent | string | 服务兵端-服务内容描述 |
@@ -884,3 +884,22 @@ MasterInfo （师傅信息） 返回字段说明
 | RefusedTime | DateTime | 审批时间 |
 | RefusedUserName | string | 拒绝用户 |
 | ServiceSkills | List&lt;Object&gt; | 师傅服务技能，暂未使用 |
+
+TradeProductBrand （产品品牌） 返回字段说明
+
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| TradePkId | Guid | 所属订单ID |
+| PkId | Guid | 产品品牌PkId |
+| Name | string | 品牌名称 |
+
+QualityIdentyDto （质量鉴定） 返回字段说明
+
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| TradePkId | Guid | 所属订单ID |
+| ProcessResult | string | 处理结果 |
+| Remark | string | 备注 |
+| CreateTime | DateTime | 处理时间 |
+
+
