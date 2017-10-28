@@ -28,8 +28,6 @@ POST
 
 # 注意事项
 
-
-
 # 返回结果
 
 ```
@@ -40,7 +38,11 @@ POST
 
 | 返回字段 | 字段类型 | 字段说明 |
 | :--- | :--- | :--- |
-|  |  |  |
+| Status | object | 状态名称 |
+| Value | object | 结果值 |
+| ResultTime | object | 返回时间 |
+| error | object | 错误信息 |
+| error\_description | object | 错误描述 |
 
 
 
