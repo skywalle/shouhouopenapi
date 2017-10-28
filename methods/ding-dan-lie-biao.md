@@ -880,3 +880,7 @@ MasterInfo （师傅信息） 返回字段说明
 | ProviceId | int | 省Id |
 | CityId | int | 市Id |
 | AreaId | int | 区Id |
+| AddressInfo | string | 详细地址 |
+| RefusedTime | DateTime | 审批时间 |
+| RefusedUserName | string | 拒绝用户 |
+| ServiceSkills | List&lt;Object&gt; | 师傅服务技能，暂未使用 |
