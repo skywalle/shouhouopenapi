@@ -769,3 +769,24 @@ ConfirmHome （确认上门） 返回字段说明
 | TradeOrder | List&lt;Object&gt; | 上门工单，暂未使用 |
 | ComfirmHomeStatus | string | 确认上门状态 |
 
+BuyerInfo （下单用户信息） 返回字段说明
+
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| PkId | Guid | 下单用户ID |
+| UserName | string | 用户名 |
+| LoginTime | DateTime | 最后登录时间 |
+| ProductCount | int | 拥有产品数量 |
+| TradeCount | int | 下单次数 |
+| ServiceCount | int | 进行中的订单数量 |
+| LastTradeTime | DateTime | 最后下单时间 |
+| Name | string | 姓名 |
+| Mobile | string | 手机号 |
+| Address | List&lt;Object&gt; | 地址，暂未使用 |
+| DetailAddress | string | 详细地址 |
+| CreateTime | DateTime | 首次登录时间 |
+| ProductMaintenanceCount | int | 产品保养提醒数量 |
+| ProductChangeCount | int | 产品更换提醒数量 |
+
+
+
