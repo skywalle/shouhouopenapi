@@ -757,5 +757,15 @@ BranchInfo （网点） 返回字段说明
 | FlowSource | string | 流量来源 |
 | IsServiceCenter | bool | 是否服务中心 |
 
+ConfirmHome （确认上门） 返回字段说明
 
+| 字段说明 | 字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| TradePkId | Guid | 所属订单ID |
+| HomeTime | DateTime | 上门时间 |
+| Lng | decimal | 经度 |
+| Lat | decimal | 维度 |
+| AddressInfo | string | 上门地址 |
+| TradeOrder | List&lt;Object&gt; | 上门工单，暂未使用 |
+| ComfirmHomeStatus | string | 确认上门状态 |
 
