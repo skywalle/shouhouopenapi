@@ -28,6 +28,9 @@ POST
 | ReserveTime | DateTime | 是 | 预约时间 |
 | ProductInfo | Object | 是 | 产品品类信息 |
 | FaultType | string | 否 | 故障类型 |
+| BuyChnnal | string | 否 | 购买渠道 |
+| ServiceType | Object | 是 | 服务类型 |
+| BuyTime | DateTime | 否 | 购买时间 |
 |  |  |  |  |
 
 # 注意事项
