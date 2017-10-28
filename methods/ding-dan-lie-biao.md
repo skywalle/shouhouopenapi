@@ -572,8 +572,8 @@ TradeInfo（订单）返回字段说明
 | CloseReason | Object | 订单取消原因 |
 | CancelTime | DateTime | 订单取消时间 |
 | FormatTime | DateTime | 格式化时间，暂未使用 |
-| BrandsSellerInfo | Object | 品牌商用户信息 |
-| BranchSellerInfo | Object | 网点商用户信息 |
+| BrandsSellerInfo | Object | 品牌商用户信息，暂未使用 |
+| BranchSellerInfo | Object | 网点商用户信息，暂未使用 |
 | IsConfirm | bool | 是否确认上门 |
 | BranchName | string | 网点名称 |
 | IsHasBranch | bool | 是否已达网点 |
@@ -812,7 +812,71 @@ CloseReason （关闭原因） 返回字段说明
 | ReasonId | Guid | 关闭原因ID |
 | ReasonName | string | 关闭原因名称 |
 
+MasterInfo （师傅信息） 返回字段说明
 
-
-
-
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| TradePkId | Guid | 所属订单ID |
+| PkId | Guid | 师傅ID |
+| UserName | string | 用户名 |
+| FullName | string | 全名 |
+| Mobile | string | 手机号 |
+| SellerInfo | List&lt;Object&gt; | 所属网点信息，暂未使用 |
+| BranchInfo | List&lt;Object&gt; | 绑定网点信息，暂未使用 |
+| Password | string | 密码 |
+| Avatar | string | 头像，暂未使用 |
+| BaseSalary | decimal | 基本工资 |
+| ServiceScore | decimal | 服务分数 |
+| WorkStatus | string | 当前状态 |
+| WorkSatausIcon | string | 当前状态图标 |
+| MaxTradeCount | int | 日最大接单数 |
+| TradeCount | int | 日已结单数 |
+| TradeTotalCount | int | 师傅接单总数 |
+| AlreadyPay | decimal | 已付款收入 |
+| SurplusCount | int | 日已结单数 |
+| Percentage | decimal | 服务分数 |
+| CommissionRule | List&lt;Object&gt; | 提成规则，暂未使用 |
+| ServiceTypes | List&lt;Object&gt; | 服务类型，暂未使用 |
+| ProduceList | List&lt;Object&gt; | 产品品类，暂未使用 |
+| HerderStr | string | 头像 |
+| IsSendMobileMsg | bool | 是否发送消息通知 |
+| PassportPositive | string | 身份证正面 |
+| PassportNegative | string | 身份证反面 |
+| RegisterFrom | string | 注册来源 |
+| AuditStatus | string | 审核状态 |
+| CreateTime | DateTime | 创建时间 |
+| IsBound | bool | 是否绑定网点 |
+| BranchName | string | 网点名称 |
+| ServiceRange | List&lt;Object&gt; | 服务范围，暂未使用 |
+| ServiceRangeList | List&lt;Object&gt; | 新版师傅服务范围，暂未使用 |
+| StartLevel | int | 评星等级 |
+| ApprovalStatus | string | 审批状态 |
+| IsSelected | bool | 是否选中 |
+| RefusedReason | string | 拒绝理由 |
+| ServiceEndTradeCount | decimal | 服务完成单数 |
+| WaitAppointTradeCount | decimal | 等待预约单数 |
+| WaitServiceTradeCount | decimal | 等待服务单数 |
+| Sort | int | 排序 |
+| Passport | string | 身份证 |
+| PassportCode | string | 身份证号码 |
+| FkCommissionRulePkId | Guid | 师傅提成规则外键Id |
+| BankInfo | List&lt;Object&gt; | 银行卡信息，暂未使用 |
+| FkBranchSellerPkId | Guid | 网点商用户UserId |
+| IsBranchServiceCenter | bool | 是否服务中心 |
+| DeviceId | string | 激光设备Id |
+| DeviceInfo | string | 设备Json串信息 |
+| VoiceBroadcast | string | 语音播报设置信息 |
+| ServiceRegions | List&lt;Object&gt; | 师傅服务区域，暂未使用 |
+| ApprovalTime | DateTime | 审批时间 |
+| FisrtLoginTime | DateTime | 首次登录时间 |
+| WxUserOpenId | string | 用户在wxappid下的openid |
+| WxUnionId | string | 微信用户UID |
+| WxHeadImgUrl | string | 微信用户头像 |
+| WxNickName | string | 微信用户昵称 |
+| FlowSource | string | 流量来源 |
+| Province | string | 省份 |
+| City | string | 城市 |
+| Area | string | 区域 |
+| ProviceId | int | 省Id |
+| CityId | int | 市Id |
+| AreaId | int | 区Id |
