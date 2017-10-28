@@ -25,13 +25,16 @@ POST
 | 名称 | 类型 | 必须 | 描述 |
 | --- | --- | --- | --- |
 | Contact | Object | 是 | 联系信息 |
-| ReserveTime | DateTime | 是 | 预约时间 |
+| ReserveTime | DateTime | 否 | 预约时间 |
+| ReserveNoon | string | 否 | 预约时间：中午、下午 |
 | ProductInfo | Object | 是 | 产品品类信息 |
 | FaultType | string | 否 | 故障类型 |
 | BuyChnnal | string | 否 | 购买渠道 |
 | ServiceType | Object | 是 | 服务类型 |
 | BuyTime | DateTime | 否 | 购买时间 |
-|  |  |  |  |
+| ProductModel | Object | 否 | 产品型号 |
+| MasterInfo | Object | 是 | 接单师傅信息 |
+| MasterReserveTime | DateTime | 否 | 师傅预约时间 |
 
 # 注意事项
 
