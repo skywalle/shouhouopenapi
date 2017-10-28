@@ -788,5 +788,31 @@ BuyerInfo （下单用户信息） 返回字段说明
 | ProductMaintenanceCount | int | 产品保养提醒数量 |
 | ProductChangeCount | int | 产品更换提醒数量 |
 
+TradeStatus （订单状态） 返回字段说明
+
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| PkId | Guid | 订单状态ID |
+| Name | string | 状态名称 |
+| Sort | int | 排序 |
+| Cate | string | 分类 |
+
+GuaranteeInfo （质保信息） 返回字段说明
+
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| TradePkId | Guid | 所属订单ID |
+| PkId | Guid | 质保信息ID |
+| Name | string | 质保信息名称 |
+
+CloseReason （关闭原因） 返回字段说明
+
+| 字段说明 |字段类型 | 字段说明 |
+| :--- | :--- | :--- |
+| ReasonId | Guid | 关闭原因ID |
+| ReasonName | string | 关闭原因名称 |
+
+
+
 
 
