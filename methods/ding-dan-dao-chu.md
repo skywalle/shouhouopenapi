@@ -6,7 +6,7 @@
 
 # 请求地址
 
-branch/trade/create
+brands/finance/trade/export/batch/info
 
 # 支持格式
 
