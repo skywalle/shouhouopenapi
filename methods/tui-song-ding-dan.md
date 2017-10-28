@@ -26,7 +26,9 @@ POST
 | --- | --- | --- | --- |
 | Contact | Object | 是 | 联系信息 |
 | ReserveTime | DateTime | 是 | 预约时间 |
-| ProductInfo | Object |  |  |
+| ProductInfo | Object | 是 | 产品品类信息 |
+| FaultType | string | 否 | 故障类型 |
+|  |  |  |  |
 
 # 注意事项
 
