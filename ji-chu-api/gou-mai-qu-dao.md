@@ -59,5 +59,5 @@ GET
 | TradeId | Guid | 订单PkId，暂未使用 |
 | IsBranch | bool | 是否是网点，暂未使用 |
 
-
+p
 
